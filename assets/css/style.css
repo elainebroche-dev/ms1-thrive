@@ -1,0 +1,8 @@
+
+/* clear the decks by defaulting all margin/padding/border settings to 0/none */
+ * {
+    margin:0;
+    padding:0;
+    border: none;
+       }
+    

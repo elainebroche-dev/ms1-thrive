@@ -1,4 +1,4 @@
-<h1 align="center">Thrive Juices and Smoothies Website/h1>
+<h1 align="center">Thrive Juices and Smoothies Website</h1>
 
 [View the live project here.](ebr : url needed here)
 

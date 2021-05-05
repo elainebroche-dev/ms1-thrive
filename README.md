@@ -60,7 +60,7 @@ This is the main marketing website for Thrive Juices and Smoothies, a cafe and t
 ebr : to be written / amended
 
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the ?????  ebr: to be written font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the "Roboto Condensed" and "Open Sans" fonts into the style.css file which are used on all pages throughout the project.
 2. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 3. [Git](https://git-scm.com/)

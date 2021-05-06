@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 /* clear the decks by defaulting all margin/padding/border settings to 0/none */
 * {
@@ -8,7 +8,7 @@
 }
 
 body {
-   font-family: 'Open Sans', sans-serif;
+   font-family: Lato, sans-serif;
    font-weight: 300;
    color: #141414;
 }
@@ -16,9 +16,14 @@ body {
 /* headings and logo */
 
 h1, h2, h3 {
-   font-family: 'Roboto Condensed', sans-serif;
-   letter-spacing: 3px;
+   font-family: Oswald, sans-serif;
+   letter-spacing: 4px;
    color: #141414;
+}
+
+h3 {
+   letter-spacing: 2px;  
+   text-transform: uppercase;
 }
 
 #logo {
@@ -73,7 +78,14 @@ h1, h2, h3 {
    background: url('../images/bruna-branco-7r1HxvVC7AY-unsplash-cropped.jpg')  no-repeat center center; 
 }
 
-/* centre page panels */
+/* centre page area */
+
+#tagline {
+   text-align: center;
+   margin: 20px 0;
+   font-size: 280%;
+   text-transform: uppercase;
+}
 
 #company-ideals  {
    border: 1px solid #e1e;
@@ -127,6 +139,13 @@ footer {
 
 .footer-text {
    font-size: 90%;
+   color: blue;
+}
+
+hr {
+   border-top: 2px solid #3a3a3a;
+   width: 100%;
+   margin: 5px 0;
 }
 
 .social-networks {
@@ -141,3 +160,4 @@ footer {
    font-size: 160%;
    margin: 1%;
    color: #141414;
+}

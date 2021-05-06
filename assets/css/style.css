@@ -15,7 +15,7 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1, h2, h3 {
    font-family: 'Roboto Condensed', sans-serif;
    letter-spacing: 3px;
    color: #141414;
@@ -58,6 +58,8 @@ h1, h2 {
    border-bottom: 1px solid #141414;
 }
 
+/* hero image and text */
+
 #hero-outer {
    height: 600px;
    width: 100%;
@@ -70,6 +72,8 @@ h1, h2 {
    width: 100%;
    background: url('../images/rayia-soderberg-ezSFnAFi9hY-unsplash-mod.jpg')  no-repeat center center; 
 }
+
+/* centre page panels */
 
 #company-ideals  {
    border: 1px solid #e1e;
@@ -95,6 +99,9 @@ h1, h2 {
    margin: 0 auto;
 }
 
+
+/* footer */
+
 footer {
    border: 1px solid #e1e;
    height: 150px;
@@ -117,3 +124,20 @@ footer {
    width: 33%;
    margin: 0 auto;
 }
+
+.footer-text {
+   color: blue;
+}
+
+.social-networks {
+   text-align: left;
+}
+
+.social-networks > li {
+   display: inline;
+}
+
+.social-networks i {
+   font-size: 160%;
+   margin: 1%;
+   color: #141414;

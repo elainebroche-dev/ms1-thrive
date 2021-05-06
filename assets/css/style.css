@@ -70,7 +70,7 @@ h1, h2, h3 {
 #hero-image {
    height: 600px;
    width: 100%;
-   background: url('../images/rayia-soderberg-ezSFnAFi9hY-unsplash-mod.jpg')  no-repeat center center; 
+   background: url('../images/rayia-soderberg-ezSFnAFi9hY-unsplash-modified.jpg')  no-repeat center center; 
 }
 
 /* centre page panels */
@@ -126,7 +126,7 @@ footer {
 }
 
 .footer-text {
-   color: blue;
+   font-size: 90%;
 }
 
 .social-networks {

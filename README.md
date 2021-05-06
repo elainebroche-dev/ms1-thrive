@@ -155,6 +155,15 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   ebr : to be written
 
+#### Images
+
+-   index.html : main (hero) image - Photo by <a href="https://unsplash.com/@rayia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rayia Soderberg</a> on <a href="https://unsplash.com/s/photos/fruit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+-   menu.html : ????? ebr : to be written
+
+-   contact.html : ??? ebr : to be written
+
+
 ### Acknowledgements
 
 -   ebr : to be written

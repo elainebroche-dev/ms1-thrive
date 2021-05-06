@@ -10,7 +10,7 @@
 body {
    font-family: 'Open Sans', sans-serif;
    font-weight: 300;
-   color: #3a3a3a;
+   color: #141414;
 }
 
 /* headings and logo */
@@ -18,7 +18,7 @@ body {
 h1, h2 {
    font-family: 'Roboto Condensed', sans-serif;
    letter-spacing: 3px;
-   color: #3a3a3a;
+   color: #141414;
 }
 
 #logo {
@@ -28,8 +28,8 @@ h1, h2 {
 }
 
 #menu {
-   font-size: 110%;
-   font-weight: 500;
+   font-size: 100%;
+   font-weight: 550;
    letter-spacing: 2px;
    float:right;
 }
@@ -51,9 +51,69 @@ h1, h2 {
 }
 
 #menu a:hover {
-   border-bottom: 1px solid #3a3a3a;
+   border-bottom: 1px solid #141414;
 }
 
 .active {
-   border-bottom: 1px solid #3a3a3a;
+   border-bottom: 1px solid #141414;
+}
+
+#hero-outer {
+   height: 600px;
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+}
+
+#hero-image {
+   height: 600px;
+   width: 100%;
+   background: url('../images/rayia-soderberg-ezSFnAFi9hY-unsplash-mod.jpg')  no-repeat center center; 
+}
+
+#company-ideals  {
+   border: 1px solid #e1e;
+   height: 600px;
+   width: 100%;
+}
+
+#left-ideals {
+   border: 1px solid #e1e;
+   float:left;
+   width: 33%;
+}
+
+#right-ideals {
+   border: 1px solid #e1e;
+   float: right;
+   width: 33%;
+}
+
+#center-ideals {
+   border: 1px solid #e1e;
+   width: 33%;
+   margin: 0 auto;
+}
+
+footer {
+   border: 1px solid #e1e;
+   height: 150px;
+}
+
+#left-footer {
+   border: 1px solid #e1e;
+   float:left;
+   width: 33%;
+}
+
+#right-footer {
+   border: 1px solid #e1e;
+   float: right;
+   width: 33%;
+}
+
+#center-footer {
+   border: 1px solid #e1e;
+   width: 33%;
+   margin: 0 auto;
 }

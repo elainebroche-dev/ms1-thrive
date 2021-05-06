@@ -157,7 +157,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 #### Images
 
--   index.html : main (hero) image - Photo by <a href="https://unsplash.com/@rayia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rayia Soderberg</a> on <a href="https://unsplash.com/s/photos/fruit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-   index.html : main (hero) image - Photo by <a href="https://unsplash.com/@brunabranco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bruna Branco</a> on <a href="https://unsplash.com/s/photos/citrus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 -   menu.html : ????? ebr : to be written
 

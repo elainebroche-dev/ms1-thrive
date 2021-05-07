@@ -4,7 +4,7 @@
 
 This is the main marketing website for Thrive Juices and Smoothies, a cafe and takeaway service offering an assortment of refreshments and healthy snacks. It is designed to be responsive and accessible on a range of devices.
 
-<h2 align="center"><img src=""></h2>  ebr : need and image here
+<h2 align="center"><img src=""></h2>  (https://elainebroche-dev.github.io/ms1-thrive/)
 
 ## User Experience (UX)
 
@@ -14,7 +14,8 @@ This is the main marketing website for Thrive Juices and Smoothies, a cafe and t
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, ebr : to be written
+        3. As a First Time Visitor, I want to be able to easily navigate to and view a menu of drinks and snacks.
+        4. As a First Time Visitor, I want to be able to easily find opening times for the organisation and where it is located.
 
     -   #### Returning Visitor Goals
 
@@ -23,7 +24,7 @@ This is the main marketing website for Thrive Juices and Smoothies, a cafe and t
         3. As a Returning Visitor, ebr : to be written
 
     -   #### Frequent User Goals
-        1. As a Frequent User, ebr : to be written
+        1. As a Frequent User, I want to be able to quickly access the menu and opening times.
       
 
 -   ### Design
@@ -32,7 +33,7 @@ This is the main marketing website for Thrive Juices and Smoothies, a cafe and t
     -   #### Typography
         -   ebr : to be written
     -   #### Imagery
-        -   ebr : to be written
+        -   The hero and large background images have been chosen because they are eye-catching, fresh and bright.  The citrus and light pastel colours in the images were chosen to help convey a sense of energy, health and freshness.  The images depict fruit to align with the main business goal of selling juices and smoothies and were chosen for their "simplicity" (- e.g. a single type of fruit or repeating theme) to help make the site clear and easy to use.
 
 *   ### Wireframes
 

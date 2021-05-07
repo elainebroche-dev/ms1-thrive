@@ -210,6 +210,11 @@ h3 {
    background-color: #bbb;
    color: black;
  }
+
+ .flip-card-front img {
+    width: 450px;
+    height: 450px;
+ }
  
  /* Style the back side */
  .flip-card-back {

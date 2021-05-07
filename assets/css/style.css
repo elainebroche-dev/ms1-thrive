@@ -34,7 +34,7 @@ h3 {
 
 #menu {
    font-size: 100%;
-   font-weight: 500;
+   font-weight: 600;
    letter-spacing: 2px;
    float:right;
 }
@@ -116,36 +116,48 @@ h3 {
 
 footer {
    border: 1px solid #e1e;
-   height: 150px;
+   height: 225px;  
+   padding-top : 15px;
+}
+
+#footer-group {
+   width:750px; 
+   margin: 0 auto;
+   text-align: center; 
 }
 
 #left-footer {
-   border: 1px solid #e1e;
+   /*border: 1px solid #e1e;*/
    float:left;
-   width: 33%;
+   text-align: left;
 }
 
 #right-footer {
-   border: 1px solid #e1e;
+   /*border: 1px solid #e1e;*/
    float: right;
-   width: 33%;
+   text-align:left;
 }
 
 #center-footer {
-   border: 1px solid #e1e;
-   width: 33%;
-   margin: 0 auto;
+   display: inline-block;
+   text-align: left;
+   margin 0 auto;
 }
 
 .footer-text {
    font-size: 90%;
-   color: blue;
+   font-weight: 600;
+}
+
+#opening-times li {
+   list-style-type: none;
 }
 
 hr {
    border-top: 2px solid #3a3a3a;
    width: 100%;
-   margin: 5px 0;
+   margin: 5px 0 10px;
+   
 }
 
 .social-networks {
@@ -157,7 +169,7 @@ hr {
 }
 
 .social-networks i {
-   font-size: 160%;
-   margin: 1%;
+   font-size: 180%;
+   margin: 8px;
    color: #141414;
 }

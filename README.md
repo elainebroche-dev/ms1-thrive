@@ -1,10 +1,10 @@
 <h1 align="center">Thrive Juices and Smoothies Website</h1>
 
-[View the live project here.](ebr : url needed here)
+[View the live project here.](https://elainebroche-dev.github.io/ms1-thrive/)
 
 This is the main marketing website for Thrive Juices and Smoothies, a cafe and takeaway service offering an assortment of refreshments and healthy snacks. It is designed to be responsive and accessible on a range of devices.
 
-<h2 align="center"><img src=""></h2>  (https://elainebroche-dev.github.io/ms1-thrive/)
+<h2 align="center"><img src=""></h2>  (ebr : to be written)
 
 ## User Experience (UX)
 
@@ -15,21 +15,22 @@ This is the main marketing website for Thrive Juices and Smoothies, a cafe and t
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
         3. As a First Time Visitor, I want to be able to easily navigate to and view a menu of drinks and snacks.
-        4. As a First Time Visitor, I want to be able to easily find opening times for the organisation and where it is located.
+        4. As a First Time Visitor, I want to be able to easily find where the organisation is located.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, ebr : to be written
-        2. As a Returning Visitor, ebr : to be written.
-        3. As a Returning Visitor, ebr : to be written
+        1. As a Returning Visitor, I want to be able to access the menu quickly and easily.
+        2. As a Returning Visitor, I want to be able to check opening times quickly and easily.
+        3. As a Returning Visitor, I want to be able to contact the organisation to give feedback or ask questions.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to be able to quickly access the menu and opening times.
-      
+        1. As a Frequent User, I want to be able to sign-up easily for discounts.
+     
 
 -   ### Design
     -   #### Colour Scheme
-        -   ebr : to be written
+        -   The colours used were based on a citrus/pastel palette from this website :https://www.lilybugdesign.co.nz/colour-wall  ![Colour Palette](assets/images/citruspalette.png)
+
     -   #### Typography
         -   ebr : to be written
     -   #### Imagery
@@ -146,7 +147,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   ebr : to be written
+-   Code on how to do the fade-in of the hero image came from information on this page : https://blog.hubspot.com/website/css-fade-in
+-   Code on how to do a rounded button as seen on the index.html page was written based on example code on : https://w3schools.com/css/
+-   Code on how to do the flip-card effect on the index.html page was based on example code on : https://w3schools.com/css/
 
 ### Content
 
@@ -159,6 +162,15 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### Images
 
 -   index.html : main (hero) image - Photo by <a href="https://unsplash.com/@brunabranco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bruna Branco</a> on <a href="https://unsplash.com/s/photos/citrus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- main page middle area images :
+
+        Photo by <a href="https://unsplash.com/@allecgomes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Allec Gomes</a> on <a href="https://unsplash.com/s/photos/strawberry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        
+        Photo by <a href="https://unsplash.com/@thoughtcatalog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thought Catalog</a> on <a href="https://unsplash.com/s/photos/pear?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        
+        Photo by <a href="https://unsplash.com/@92designed?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina Deravedisian</a> on <a href="https://unsplash.com/s/photos/blueberries?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 -   menu.html : ????? ebr : to be written
 

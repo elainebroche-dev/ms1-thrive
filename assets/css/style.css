@@ -76,6 +76,62 @@ h3 {
    height: 600px;
    width: 100%;
    background: url('../images/bruna-branco-7r1HxvVC7AY-unsplash-cropped.jpg')  no-repeat center center; 
+
+   /* animates fade-in effect on loading page */
+   animation: hero-fade-in 5s;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-fade-in {
+   0% {opacity:0.5;}
+   100% {opacity:1;}
+}
+
+
+
+#welcome-text {
+   font-family: Oswald, sans-serif;
+   letter-spacing: 4px;
+
+   padding: 40px;
+   background-color: rgba(243, 184, 142, 0.7);
+   
+  
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+
+   color: #fff;
+   text-transform: uppercase;
+  
+}
+
+#welcome-text h2 {
+   color:#fff;
+   font-size: 150%;
+}
+
+#welcome-text h3 {
+   color:#fff;
+   font-size: 450%;
+   font-weight: bold;
+}
+
+.button {
+   appearance: button;
+   background-color: #ee901d;
+   border: none;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin: 4px 2px;
+   border-radius: 8px;
+   font-weight: bold;
 }
 
 /* centre page area */
@@ -90,8 +146,13 @@ h3 {
 #company-ideals  {
    border: 1px solid #e1e;
    height: 600px;
-   width: 100%;
+   width: 80%;
+   margin: 0 auto;
+   
 }
+
+
+
 
 #left-ideals {
    border: 1px solid #e1e;
@@ -111,6 +172,51 @@ h3 {
    margin: 0 auto;
 }
 
+.flip-card {
+   background-color: transparent;
+   width: 450px;
+   height: 450px;
+   border: 1px solid #f1f1f1;
+   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+   padding:15px;
+ }
+ 
+ /* This container is needed to position the front and back side */
+ .flip-card-inner {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+ }
+ 
+ /* Do an horizontal flip when you move the mouse over the flip box container */
+ .flip-card:hover .flip-card-inner {
+   transform: rotateY(180deg);
+ }
+ 
+ /* Position the front and back side */
+ .flip-card-front, .flip-card-back {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   -webkit-backface-visibility: hidden; /* Safari */
+   backface-visibility: hidden;
+ }
+ 
+ /* Style the front side (fallback if image is missing) */
+ .flip-card-front {
+   background-color: #bbb;
+   color: black;
+ }
+ 
+ /* Style the back side */
+ .flip-card-back {
+   background-color: dodgerblue;
+   color: white;
+   transform: rotateY(180deg);
+ }
 
 /* footer */
 
@@ -141,7 +247,7 @@ footer {
 #center-footer {
    display: inline-block;
    text-align: left;
-   margin 0 auto;
+   margin: 0 auto;
 }
 
 .footer-text {

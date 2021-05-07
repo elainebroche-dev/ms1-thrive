@@ -132,6 +132,11 @@ h3 {
    margin: 4px 2px;
    border-radius: 8px;
    font-weight: bold;
+   box-shadow: 5px 10px #888888;
+}
+
+.button:hover {
+   background-color: #f57309;
 }
 
 /* centre page area */

@@ -75,7 +75,7 @@ h3 {
 #hero-image {
    height: 600px;
    width: 100%;
-   background: url('../images/bruna-branco-7r1HxvVC7AY-unsplash-cropped.jpg')  no-repeat center center; 
+   background: url('../images/bruna-branco-7r1HxvVC7AY-unsplash-cropped.webp')  no-repeat center center; 
 
    /* animates fade-in effect on loading page */
    animation: hero-fade-in 5s;
@@ -151,7 +151,6 @@ h3 {
 #company-ideals  {
    border: 1px solid #e1e;
    height: 600px;
-   width: 80%;
    margin: 0 auto;
    
 }
@@ -181,9 +180,10 @@ h3 {
    background-color: transparent;
    width: 450px;
    height: 450px;
-   border: 1px solid #f1f1f1;
+   border: 1px solid #5f1818;
    perspective: 1000px; /* Remove this if you don't want the 3D effect */
    padding:15px;
+   margin: 0 auto;
  }
  
  /* This container is needed to position the front and back side */

@@ -70,6 +70,7 @@ h3 {
    width: 100%;
    overflow: hidden;
    position: relative;
+   border : 1px solid green;
 }
 
 #hero-image {
@@ -86,8 +87,6 @@ h3 {
    0% {opacity:0.5;}
    100% {opacity:1;}
 }
-
-
 
 #welcome-text {
    font-family: Oswald, sans-serif;
@@ -148,6 +147,28 @@ h3 {
    text-transform: uppercase;
 }
 
+/* generic styling to support 3 areas arranged horizontally*/
+.left-panel {
+   border: 1px solid #e1e;
+   float:left;
+   text-align: left;
+}
+
+.right-panel {
+   border: 1px solid #e1e;
+   float: right;
+   text-align:left;
+}
+
+.center-panel {
+   border: 1px solid #e1e;
+   display: inline-block;
+   text-align: left;
+   margin: 0 auto;
+}
+
+
+
 #company-ideals  {
    border: 1px solid #e1e;
    height: 600px;
@@ -155,7 +176,17 @@ h3 {
    
 }
 
+#itemlist  {
+   height: 600px;
+   width: 100%;
+   overflow: hidden;
+   display: inline-block;
+   border : 1px solid green;
+}
 
+table, th, td {
+   border: 1px solid #e1e;
+}
 
 
 #left-ideals {
@@ -240,24 +271,6 @@ footer {
    width:750px; 
    margin: 0 auto;
    text-align: center; 
-}
-
-#left-footer {
-   /*border: 1px solid #e1e;*/
-   float:left;
-   text-align: left;
-}
-
-#right-footer {
-   /*border: 1px solid #e1e;*/
-   float: right;
-   text-align:left;
-}
-
-#center-footer {
-   display: inline-block;
-   text-align: left;
-   margin: 0 auto;
 }
 
 .footer-text {

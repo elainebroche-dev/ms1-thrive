@@ -32,8 +32,81 @@
             </ul>
         </nav>
     </header>
-    <section>to be coded : middle of the page stuff for the contact html file</section>
-    <footer>to be coded : footer including social links for the contact html file</footer>
+    <section class="page-middle">
+        <div id="cust-contact-details">
+            <h2>all the contact details stuff goes here</h2>
+            <form action="submit">
+                <label for="fullname">Your full name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your name">
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" placeholder="*Email">
+                <label for="comment">your comment???to be written</label>
+                <textarea id="comment" name="comment" cols="40" rows="5"></textarea>
+                <input type="radio" id="opt-in" name="opt-in" value="in">
+                <label for="opt-in">this is the opt-in option</label><br>
+                <input type="radio" id="opt-out" name="opt-out" value="out" checked>
+                <label for="opt-out">this is the opt-out option</label><br>
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+        <div id="google-map-area">
+            <h2>a link out to google maps will go here</h2>
+            
+        </div>
+        <div id="our-contact-details">
+            <h2>address goes here</h2>
+            <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=4%20shop%20st,%20galway+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            </iframe>
+            <a href="https://www.maps.ie/draw-radius-circle-map/">Radius map calculator</a>
+        </div>
+        /*
+        https://www.maps.ie/create-google-map/ - got iframe code here*/
+    </section>
+    <footer>
+        <div id="footer-group"> 
+            <div class="left-panel">
+                <h3>Opening hours <i class="far fa-clock"></i></h3>
+                <hr>
+                <ol id="opening-times" class="footer-text">
+                    <li>Monday: 9.00-17.30</li>
+                    <li>Tuesday: 9.00-17.30</li>
+                    <li>Wednesday: 9.00-17.30</li>
+                    <li>Thursday: 9.00-21.00</li>
+                    <li>Friday: 9.00-21.00</li>
+                    <li>Saturday: 9.00-21.00</li>
+                    <li>Sunday: 10.00-17.30</li>
+                </ol>
+            </div>
+            <div class="right-panel">
+                <h3>Stay in touch</h3>
+                <hr>
+                <ul class="social-networks">
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                class="fab fa-instagram"></i></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Twitter page (opens in a new tab)"><i
+                                class="fab fa-twitter"></i></i></a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fab fa-facebook"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="center-panel">
+                <h3>ADDRESS <i class="far fa-building"></i></h3>
+                <hr>
+                <p class="footer-text">
+                    22 Abbey Lane<br>Galway<br>H91 DF7
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -232,7 +232,7 @@ table, th, td {
  }
  
  /* Position the front and back side */
- .flip-card-front, .flip-card-back {
+ .flip-card-front, .flip-card-back-left, .flip-card-back-right, .flip-card-back-middle {
    position: absolute;
    width: 100%;
    height: 100%;
@@ -252,8 +252,20 @@ table, th, td {
  }
  
  /* Style the back side */
- .flip-card-back {
-   background-color: dodgerblue;
+ .flip-card-back-right {
+   background-color: #e0f4ff;
+   color: white;
+   transform: rotateY(180deg);
+ }
+
+ .flip-card-back-left {
+   background-color: #f5bccf;
+   color: white;
+   transform: rotateY(180deg);
+ }
+
+ .flip-card-back-middle {
+   background-color: #ebebab;
    color: white;
    transform: rotateY(180deg);
  }
@@ -270,6 +282,25 @@ footer {
    width:750px; 
    margin: 0 auto;
    text-align: center; 
+}
+
+#footer-left-panel {
+   border: 1px solid #e1e;
+   float:left;
+   text-align: left;
+}
+
+#footer-right-panel {
+   border: 1px solid #e1e;
+   float: right;
+   text-align: left;
+}
+
+#footer-center-panel {
+   border: 1px solid #e1e;
+   display: inline-block;
+   margin: 0 auto;
+   text-align: left;
 }
 
 .footer-text {
@@ -302,7 +333,7 @@ hr {
    color: #141414;
 }
 
-.disclaimer {
+#disclaimer {
    clear: both; 
    padding-top: 15px; 
    padding-left: 15px;
@@ -337,3 +368,62 @@ hr {
    border-radius: 2px;
 }
 
+
+
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+   .panel-container {
+       width: 100%;
+       height: 1200px;
+       margin: 0 auto;
+   }
+
+   #tagline {
+       padding: 30px 0;
+       margin: 0;
+   }
+
+   .panel-container .left-panel, .panel-container .center-panel {
+       width: 100%;
+       float: left;
+       padding: 0;
+   }
+
+   .panel-container .right-panel {
+       clear:both;
+       width: 100%;
+       float: left;
+       padding: 0;
+   }
+
+
+   /* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+   #menu {
+       clear: left;
+       float: left;
+       margin-left: 30px;
+       margin-bottom: 20px;
+       line-height: 25px;
+   }
+
+   #welcome-text {
+      width:100%;
+  }
+
+  #footer-group .left-panel, .footer-group .center-panel {
+   width: 100%;
+   float: left;
+   padding: 0;
+}
+
+#footer-group .right-panel {
+   clear:both;
+   width: 100%;
+   float: left;
+   padding: 0;
+}

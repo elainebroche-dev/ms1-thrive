@@ -148,7 +148,7 @@ h3 {
 }
 
 /* generic styling to support 3 areas arranged horizontally*/
-.left-panel {
+/*.left-panel {
    border: 1px solid #e1e;
    float:left;
    text-align: left;
@@ -165,11 +165,11 @@ h3 {
    display: inline-block;
    text-align: left;
    margin: 0 auto;
-}
+}*/
 
 
 
-#company-ideals  {
+.panel-container  {
    border: 1px solid #e1e;
    height: 600px;
    margin: 0 auto;
@@ -181,7 +181,6 @@ h3 {
    width: 100%;
    overflow: hidden;
    display: inline-block;
-   border : 1px solid green;
 }
 
 table, th, td {
@@ -189,19 +188,19 @@ table, th, td {
 }
 
 
-#left-ideals {
+.left-panel {
    border: 1px solid #e1e;
    float:left;
    width: 33%;
 }
 
-#right-ideals {
+.right-panel {
    border: 1px solid #e1e;
    float: right;
    width: 33%;
 }
 
-#center-ideals {
+.center-panel {
    border: 1px solid #e1e;
    width: 33%;
    margin: 0 auto;
@@ -302,3 +301,39 @@ hr {
    margin: 8px;
    color: #141414;
 }
+
+.disclaimer {
+   clear: both; 
+   padding-top: 15px; 
+   padding-left: 15px;
+}
+
+.main-section-image {
+   clear: left;
+   background: url("../images/bruna-branco-7r1HxvVC7AY-unsplash-orig.webp");
+   background-size: cover;
+   background-position: center;
+   height: 900px;
+}
+
+.contact-form {
+   margin: 150px 10% 0 0;
+   color: #fff;
+   background-color: rgba(243, 184, 142, 0.9);
+   max-width: 400px;
+   position: absolute;
+   left: 10%;
+   padding: 30px;
+   
+}
+
+.text-input {
+   background: transparent;
+   color: #fafafa;
+   width: 100%;
+   height: 25px;
+   margin: 5px 0 20px 0;
+   border: 1px solid #fafafa;
+   border-radius: 2px;
+}
+

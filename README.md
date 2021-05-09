@@ -150,6 +150,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   Code on how to do the fade-in of the hero image came from information on this page : https://blog.hubspot.com/website/css-fade-in
 -   Code on how to do a rounded button as seen on the index.html page was written based on example code on : https://w3schools.com/css/
 -   Code on how to do the flip-card effect on the index.html page was based on example code on : https://w3schools.com/css/
+-   Code on how to include google map with marker was based on code from this site :  https://www.maps.ie/create-google-map/ 
 
 ### Content
 

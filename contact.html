@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>THRIVE</title>
+
+       <!-- font awesome script -->
+       <script src="https://kit.fontawesome.com/6fbe53beed.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,35 +35,32 @@
             </ul>
         </nav>
     </header>
-    <section class="page-middle">
-        <div id="cust-contact-details">
-            <h2>all the contact details stuff goes here</h2>
-            <form action="submit">
+    <section class="main-section-image">
+        <div >
+            <form form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
+                <h2>Contact Us</h2>
                 <label for="fullname">Your full name:</label>
-                <input type="text" id="fullname" name="fullname" placeholder="Your name">
+                <input type="text" class="text-input" id="fullname" name="fullname" placeholder="Your name">
                 <label for="email">Email address:</label>
-                <input type="email" id="email" name="email" placeholder="*Email">
-                <label for="comment">your comment???to be written</label>
-                <textarea id="comment" name="comment" cols="40" rows="5"></textarea>
-                <input type="radio" id="opt-in" name="opt-in" value="in">
-                <label for="opt-in">this is the opt-in option</label><br>
-                <input type="radio" id="opt-out" name="opt-out" value="out" checked>
-                <label for="opt-out">this is the opt-out option</label><br>
-                <input type="submit" value="Submit">
+                <input type="email" class="text-input" id="email" name="email" placeholder="*Email" required>
+                <label for="feedback-comment">Message / Feedback / Comment</label>
+                <textarea id="feedback-comment" class="text-input" name="comment" cols="40" rows="5"></textarea>
+                
+                <input type="radio" id="opt-in" name="consent" value="yes">
+                <label for="opt-in">Yes, count me in</label><br>
+                <input type="radio" id="opt-out" name="consent" value="no" checked>
+                <label for="opt-out">No thanks</label><br>
+
+                <input type="submit" value="Send" class="button">
               </form>
         </div>
-        <div id="google-map-area">
-            <h2>a link out to google maps will go here</h2>
-            
-        </div>
-        <div id="our-contact-details">
-            <h2>address goes here</h2>
-            <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=4%20shop%20st,%20galway+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+        <div>
+            <h2>link out to google maps</h2>
+            <div style="width: 300px; height:200px">
+                <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=4%20shop%20st,%20galway+(THRIVE%20Juices%20and%20Smoothies)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
             </iframe>
-            <a href="https://www.maps.ie/draw-radius-circle-map/">Radius map calculator</a>
         </div>
-        /*
-        https://www.maps.ie/create-google-map/ - got iframe code here*/
+        
     </section>
     <footer>
         <div id="footer-group"> 
@@ -102,9 +102,12 @@
                 <h3>ADDRESS <i class="far fa-building"></i></h3>
                 <hr>
                 <p class="footer-text">
-                    22 Abbey Lane<br>Galway<br>H91 DF7
+                    4 Shop Street<br>Galway<br>H91 EE03
                 </p>
             </div>
+        </div>
+        <div class="disclaimer footer-text">
+            this website is for educational purposes only
         </div>
     </footer>
 </body>

@@ -273,31 +273,32 @@ table, th, td {
 /* footer */
 
 footer {
-   border: 1px solid #e1e;
+   /*border: 1px solid #e1e;*/
    height: 225px;  
    padding-top : 15px;
 }
 
 #footer-group {
    width:750px; 
+   /*border: 1px solid blue;*/
    margin: 0 auto;
    text-align: center; 
 }
 
 #footer-left-panel {
-   border: 1px solid #e1e;
+   /*border: 1px solid #e1e;*/
    float:left;
    text-align: left;
 }
 
 #footer-right-panel {
-   border: 1px solid #e1e;
+   /*border: 1px solid #e1e;*/
    float: right;
    text-align: left;
 }
 
 #footer-center-panel {
-   border: 1px solid #e1e;
+  /* border: 1px solid #e1e;*/
    display: inline-block;
    margin: 0 auto;
    text-align: left;
@@ -398,7 +399,7 @@ hr {
        float: left;
        padding: 0;
    }
-
+}
 
    /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
@@ -414,16 +415,24 @@ hr {
    #welcome-text {
       width:100%;
   }
+}
+   /* Forsmall screen sizes from 750px wide and down */
+   @media screen and (max-width: 750px) {
 
-  #footer-group .left-panel, .footer-group .center-panel {
-   width: 100%;
+
+  #footer-group {
+     width:100%;
+  }
+
+
+
+#footer-center-panel, #footer-right-panel, #footer-left-panel {
+   clear: both;
    float: left;
-   padding: 0;
+   padding-left:50px;
+   padding-bottom:15px;
+  
 }
 
-#footer-group .right-panel {
-   clear:both;
-   width: 100%;
-   float: left;
-   padding: 0;
+
 }

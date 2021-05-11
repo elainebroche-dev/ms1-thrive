@@ -70,7 +70,6 @@ h3 {
    width: 100%;
    overflow: hidden;
    position: relative;
-   border : 1px solid green;
 }
 
 #hero-image {
@@ -116,6 +115,8 @@ h3 {
    color:#fff;
    font-size: 450%;
    font-weight: bold;
+   line-height:1;
+   padding: 30px;
 }
 
 .button {
@@ -142,9 +143,11 @@ h3 {
 
 #tagline {
    text-align: center;
-   margin: 20px 0;
+   margin: 0;
+   padding: 30px;
    font-size: 280%;
    text-transform: uppercase;
+   line-height: 1;
 }
 
 
@@ -190,9 +193,8 @@ table, th, td {
    background-color: transparent;
    width: 330px;
    height: 330px;
-   border: 1px solid #5f1818;
    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-   padding:15px;
+   padding: 25px 20px;
    margin: 0 auto;
  }
  
@@ -212,7 +214,7 @@ table, th, td {
  }
  
  /* Position the front and back side */
- .flip-card-front, .flip-card-back-left, .flip-card-back-right, .flip-card-back-middle {
+ .flip-card-front, .flip-card-back {
    position: absolute;
    width: 100%;
    height: 100%;
@@ -223,7 +225,7 @@ table, th, td {
  /* Style the front side (fallback if image is missing) */
  .flip-card-front {
    background-color: #bbb;
-   color: black;
+   color: #141414;
  }
 
  .flip-card-front img {
@@ -231,23 +233,38 @@ table, th, td {
     height: 330px;
  }
  
- /* Style the back side */
- .flip-card-back-right {
-   background-color: #e0f4ff;
-   color: white;
+ /* Style the back of the flip-cards */
+ .flip-card-back {
+   color: #141414;
    transform: rotateY(180deg);
  }
 
- .flip-card-back-left {
+ .flip-card-back p {
+   text-align: left;
+   font-size : large;
+   font-weight: bolder;
+   padding: 20px 50px;
+
+ }
+
+ .flip-card-back h2 {
+    padding-top : 30px;
+ }
+
+ .flip-card-back-1 {
    background-color: #f5bccf;
-   color: white;
-   transform: rotateY(180deg);
  }
 
- .flip-card-back-middle {
-   background-color: #ebebab;
-   color: white;
-   transform: rotateY(180deg);
+ .flip-card-back-2 {
+   background-color: #edbd59;
+ }
+
+ .flip-card-back-3 {
+   background-color: #cde59b;
+ }
+
+ .flip-card-back-4 {
+   background-color: #baeade;
  }
 
 /* footer */
@@ -259,10 +276,11 @@ footer {
 }
 
 #footer-group {
-   width:750px; 
+   width:700px; 
    /*border: 1px solid blue;*/
    margin: 0 auto;
    text-align: center; 
+   padding-top:30px;
 }
 
 #footer-left-panel {
@@ -316,8 +334,8 @@ hr {
 
 #disclaimer {
    clear: both; 
-   padding-top: 15px; 
-   padding-left: 15px;
+   text-align: center;
+   padding: 30px; 
 }
 
 .main-section-image {
@@ -362,10 +380,6 @@ hr {
        margin: 0 auto;
    }
 
-   #tagline {
-       padding: 30px 0;
-       margin: 0;
-   }
 
    .panel-container .left-panel, .panel-container .center-panel {
        width: 100%;
@@ -381,25 +395,18 @@ hr {
    }
 }
 
-   /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
 
-   #menu {
-       clear: left;
-       float: left;
-       margin-left: 30px;
-       margin-bottom: 20px;
-       line-height: 25px;
-   }
-
-   #welcome-text {
-      width:100%;
-  }
-}
    /* Forsmall screen sizes from 750px wide and down */
    @media screen and (max-width: 750px) {
 
-
+      #menu {
+         clear: left;
+         float: left;
+         margin-left: 30px;
+         margin-bottom: 20px;
+         line-height: 25px;
+     }
+  
 
   #footer-group {
      width:100%;
@@ -420,52 +427,36 @@ hr {
 }
 
 /*temp code to test */
-.wrapper {
+.level1-container {
 	display: flex;
 	flex-flow: row wrap;
 	text-align: center;
-	/*justify-content : space-around;*/
-	
+	justify-content: center;
 }
 
-.wrapper div {
+.level1-container >div, .level2-container >div {
 	display: flex;
 	flex-flow: row wrap;
 	text-align: center;
-	/*justify-content : space-around;*/
+   justify-content: center;
+	justify-content : space-around;
+   
 	
 }
 
-.wrapper * {
-	/*padding: 10px;*/
-	/*margin: 10px;*/
+.level1-container * {
 	flex: 1 100%;
 	border-radius: 10px;
 	
 }
 
-.inner1 {
-	background: lightblue;
+.level2-container {
+	flex : 0 1 750px;
+}
+
+.level3-container {
 	flex : 0 0 250px ;
-	order : 1;
-	
-}
-
-.inner2 {
-	background : lightgreen;
-	flex : 0 0 250px ;
-	order : 2;
 }
 
 
-.div1 {
-	background: gold;
-	order : 1;
-	flex : 0 1 725px ;
-}
 
-.div2 {
-	background: orange;
-	order : 2;
-	flex : 0 1 725px ;
-}

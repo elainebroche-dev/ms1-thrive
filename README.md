@@ -166,11 +166,19 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - main page middle area images :
 
-        Photo by <a href="https://unsplash.com/@allecgomes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Allec Gomes</a> on <a href="https://unsplash.com/s/photos/strawberry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        
         
         Photo by <a href="https://unsplash.com/@thoughtcatalog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thought Catalog</a> on <a href="https://unsplash.com/s/photos/pear?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         
-        Photo by <a href="https://unsplash.com/@92designed?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina Deravedisian</a> on <a href="https://unsplash.com/s/photos/blueberries?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+        Photo by <a href="https://unsplash.com/@amyshamblen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Amy Shamblen</a> on <a href="https://unsplash.com/s/photos/watermelon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+        Photo by <a href="https://unsplash.com/@euniquedeeann?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eunique Deeann</a> on <a href="https://unsplash.com/s/photos/lemon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+        Photo by <a href="https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mae Mu</a> on <a href="https://unsplash.com/s/photos/lemon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
   
 
 -   menu.html : ????? ebr : to be written

@@ -147,26 +147,6 @@ h3 {
    text-transform: uppercase;
 }
 
-/* generic styling to support 3 areas arranged horizontally*/
-/*.left-panel {
-   border: 1px solid #e1e;
-   float:left;
-   text-align: left;
-}
-
-.right-panel {
-   border: 1px solid #e1e;
-   float: right;
-   text-align:left;
-}
-
-.center-panel {
-   border: 1px solid #e1e;
-   display: inline-block;
-   text-align: left;
-   margin: 0 auto;
-}*/
-
 
 
 .panel-container  {
@@ -189,27 +169,27 @@ table, th, td {
 
 
 .left-panel {
-   border: 1px solid #e1e;
+   /*border: 1px solid #e1e;*/
    float:left;
    width: 33%;
 }
 
 .right-panel {
-   border: 1px solid #e1e;
+   /*border: 1px solid #e1e;*/
    float: right;
    width: 33%;
 }
 
 .center-panel {
-   border: 1px solid #e1e;
+   /*border: 1px solid #e1e;*/
    width: 33%;
    margin: 0 auto;
 }
 
 .flip-card {
    background-color: transparent;
-   width: 450px;
-   height: 450px;
+   width: 330px;
+   height: 330px;
    border: 1px solid #5f1818;
    perspective: 1000px; /* Remove this if you don't want the 3D effect */
    padding:15px;
@@ -247,8 +227,8 @@ table, th, td {
  }
 
  .flip-card-front img {
-    width: 450px;
-    height: 450px;
+    width: 330px;
+    height: 330px;
  }
  
  /* Style the back side */
@@ -420,6 +400,7 @@ hr {
    @media screen and (max-width: 750px) {
 
 
+
   #footer-group {
      width:100%;
   }
@@ -435,4 +416,56 @@ hr {
 }
 
 
+
+}
+
+/*temp code to test */
+.wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	/*justify-content : space-around;*/
+	
+}
+
+.wrapper div {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	/*justify-content : space-around;*/
+	
+}
+
+.wrapper * {
+	/*padding: 10px;*/
+	/*margin: 10px;*/
+	flex: 1 100%;
+	border-radius: 10px;
+	
+}
+
+.inner1 {
+	background: lightblue;
+	flex : 0 0 250px ;
+	order : 1;
+	
+}
+
+.inner2 {
+	background : lightgreen;
+	flex : 0 0 250px ;
+	order : 2;
+}
+
+
+.div1 {
+	background: gold;
+	order : 1;
+	flex : 0 1 725px ;
+}
+
+.div2 {
+	background: orange;
+	order : 2;
+	flex : 0 1 725px ;
 }

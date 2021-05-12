@@ -14,7 +14,6 @@ body {
 }
 
 /* headings and logo */
-
 h1, h2, h3 {
    font-family: Oswald, sans-serif;
    letter-spacing: 4px;
@@ -24,6 +23,36 @@ h1, h2, h3 {
 h3 {
    letter-spacing: 2px;  
    text-transform: uppercase;
+}
+
+hr {
+   border-top: 2px solid #3a3a3a;
+   width: 100%;
+   margin: 5px 0 10px;
+}
+
+.active {
+   border-bottom: 1px solid #141414;
+}
+
+.button {
+   appearance: button;
+   background-color: #ee901d;
+   border: none;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin: 4px 2px;
+   border-radius: 8px;
+   font-weight: bold;
+   box-shadow: 5px 10px #888888;
+}
+
+.button:hover {
+   background-color: #f57309;
 }
 
 #logo {
@@ -59,12 +88,7 @@ h3 {
    border-bottom: 1px solid #141414;
 }
 
-.active {
-   border-bottom: 1px solid #141414;
-}
-
 /* hero image and text */
-
 #hero-outer {
    height: 600px;
    width: 100%;
@@ -76,12 +100,10 @@ h3 {
    height: 600px;
    width: 100%;
    background: url('../images/bruna-branco-7r1HxvVC7AY-unsplash-cropped.webp')  no-repeat center center; 
-
-   /* animates fade-in effect on loading page */
-   animation: hero-fade-in 5s;
+   animation: hero-fade-in 5s;  /* animates fade-in effect on loading page */
 }
 
-/* creates the level of zoom for hero image */
+/* creates the fade-in for the hero image */
 @keyframes hero-fade-in {
    0% {opacity:0.5;}
    100% {opacity:1;}
@@ -90,20 +112,15 @@ h3 {
 #welcome-text {
    font-family: Oswald, sans-serif;
    letter-spacing: 4px;
-
    padding: 40px;
    background-color: rgba(243, 184, 142, 0.7);
-   
-  
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
    text-align: center;
-
    color: #fff;
    text-transform: uppercase;
-  
 }
 
 #welcome-text h2 {
@@ -119,28 +136,6 @@ h3 {
    padding: 30px;
 }
 
-.button {
-   appearance: button;
-   background-color: #ee901d;
-   border: none;
-   color: white;
-   padding: 20px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 20px;
-   margin: 4px 2px;
-   border-radius: 8px;
-   font-weight: bold;
-   box-shadow: 5px 10px #888888;
-}
-
-.button:hover {
-   background-color: #f57309;
-}
-
-/* centre page area */
-
 #tagline {
    text-align: center;
    margin: 0;
@@ -150,50 +145,41 @@ h3 {
    line-height: 1;
 }
 
-
-
-.panel-container  {
-   border: 1px solid #e1e;
-   height: 600px;
-   margin: 0 auto;
-   
+/* flex-box structure to handle flip-cards positioning */
+.level1-container {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	justify-content: center;
 }
 
-.page-middle  {
-   height: 600px;
-   width: 100%;
-   overflow: hidden;
-   display: inline-block;
+.level1-container >div, .level2-container >div {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+   justify-content: center;
+	justify-content : space-around;
 }
 
-table, th, td {
-   border: 1px solid #e1e;
+.level1-container * {
+	flex: 1 100%;
+	border-radius: 10px;
 }
 
-
-.left-panel {
-   /*border: 1px solid #e1e;*/
-   float:left;
-   width: 33%;
+.level2-container {
+	flex : 0 1 750px;
 }
 
-.right-panel {
-   /*border: 1px solid #e1e;*/
-   float: right;
-   width: 33%;
+.level3-container {
+	flex : 0 0 250px ;
 }
 
-.center-panel {
-   /*border: 1px solid #e1e;*/
-   width: 33%;
-   margin: 0 auto;
-}
-
+/* flip-card structure to transition from image to text */
 .flip-card {
    background-color: transparent;
    width: 330px;
    height: 330px;
-   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+   perspective: 1000px; 
    padding: 25px 20px;
    margin: 0 auto;
  }
@@ -251,52 +237,46 @@ table, th, td {
     padding-top : 30px;
  }
 
- .flip-card-back-1 {
+ #flip-card-back-1 {
    background-color: #f5bccf;
  }
 
- .flip-card-back-2 {
+ #flip-card-back-2 {
    background-color: #edbd59;
  }
 
- .flip-card-back-3 {
+ #flip-card-back-3 {
    background-color: #cde59b;
  }
 
- .flip-card-back-4 {
+ #flip-card-back-4 {
    background-color: #baeade;
  }
 
-/* footer */
-
+/* footer styling */
 footer {
-   /*border: 1px solid #e1e;*/
    height: 225px;  
    padding-top : 15px;
 }
 
 #footer-group {
    width:700px; 
-   /*border: 1px solid blue;*/
    margin: 0 auto;
    text-align: center; 
    padding-top:30px;
 }
 
 #footer-left-panel {
-   /*border: 1px solid #e1e;*/
    float:left;
    text-align: left;
 }
 
 #footer-right-panel {
-   /*border: 1px solid #e1e;*/
    float: right;
    text-align: left;
 }
 
 #footer-center-panel {
-  /* border: 1px solid #e1e;*/
    display: inline-block;
    margin: 0 auto;
    text-align: left;
@@ -309,13 +289,6 @@ footer {
 
 #opening-times li {
    list-style-type: none;
-}
-
-hr {
-   border-top: 2px solid #3a3a3a;
-   width: 100%;
-   margin: 5px 0 10px;
-   
 }
 
 .social-networks {
@@ -338,7 +311,80 @@ hr {
    padding: 30px; 
 }
 
-.main-section-image {
+/* For small screen sizes from 750px wide and down */
+@media screen and (max-width: 750px) {
+
+   #menu {
+      clear: left;
+      float: left;
+      margin-left: 30px;
+      margin-bottom: 20px;
+      line-height: 25px;
+   }
+
+   #footer-group {
+      width: 100%;
+   }
+
+   #footer-center-panel,
+   #footer-right-panel,
+   #footer-left-panel {
+      clear: both;
+      float: left;
+      padding-left: 50px;
+      padding-bottom: 15px;
+   }
+}
+
+
+/* css file cleaned up to this point */
+
+
+/* this is stuff that the menu form will use */
+
+.panel-container  {
+   border: 1px solid #e1e;
+   height: 600px;
+   margin: 0 auto;
+   
+}
+
+.page-middle  {
+   height: 600px;
+   width: 100%;
+   overflow: hidden;
+   display: inline-block;
+}
+
+table, th, td {
+   border: 1px solid #e1e;
+}
+
+
+.left-panel {
+   /*border: 1px solid #e1e;*/
+   float:left;
+   width: 33%;
+}
+
+.right-panel {
+   /*border: 1px solid #e1e;*/
+   float: right;
+   width: 33%;
+}
+
+.center-panel {
+   /*border: 1px solid #e1e;*/
+   width: 33%;
+   margin: 0 auto;
+}
+
+
+
+
+
+/* this is all stuff for the contact form */
+.contact-section-image {
    clear: left;
    background: url("../images/bruna-branco-7r1HxvVC7AY-unsplash-orig.webp");
    background-size: cover;
@@ -349,6 +395,7 @@ hr {
 .contact-form {
    margin: 150px 10% 0 0;
    color: #fff;
+   font-size: 110%;
    background-color: rgba(243, 184, 142, 0.9);
    max-width: 400px;
    position: absolute;
@@ -357,15 +404,33 @@ hr {
    
 }
 
+.contact-form h2 {
+   color: #141414;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   font-size: 200%;
+}
+
+
 .text-input {
    background: transparent;
    color: #fafafa;
    width: 100%;
-   height: 25px;
    margin: 5px 0 20px 0;
    border: 1px solid #fafafa;
    border-radius: 2px;
+   padding: 5px;
 }
+
+.text-input-line {
+   height: 25px;
+}
+
+.text-input-box {
+   height: 150px;
+   resize: none;
+}
+
 
 
 
@@ -395,68 +460,6 @@ hr {
    }
 }
 
-
-   /* Forsmall screen sizes from 750px wide and down */
-   @media screen and (max-width: 750px) {
-
-      #menu {
-         clear: left;
-         float: left;
-         margin-left: 30px;
-         margin-bottom: 20px;
-         line-height: 25px;
-     }
-  
-
-  #footer-group {
-     width:100%;
-  }
-
-
-
-#footer-center-panel, #footer-right-panel, #footer-left-panel {
-   clear: both;
-   float: left;
-   padding-left:50px;
-   padding-bottom:15px;
-  
-}
-
-
-
-}
-
-/*temp code to test */
-.level1-container {
-	display: flex;
-	flex-flow: row wrap;
-	text-align: center;
-	justify-content: center;
-}
-
-.level1-container >div, .level2-container >div {
-	display: flex;
-	flex-flow: row wrap;
-	text-align: center;
-   justify-content: center;
-	justify-content : space-around;
-   
-	
-}
-
-.level1-container * {
-	flex: 1 100%;
-	border-radius: 10px;
-	
-}
-
-.level2-container {
-	flex : 0 1 750px;
-}
-
-.level3-container {
-	flex : 0 0 250px ;
-}
 
 
 

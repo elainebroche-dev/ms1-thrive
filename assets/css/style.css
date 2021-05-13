@@ -456,10 +456,10 @@ footer {
 /* For very small screen sizes from 450px wide and down */
 @media screen and (max-width: 450px) {
 
-   .contact-panel, .text-input {
+  /* .contact-panel, .text-input {
       letter-spacing: 1px;
-   }
-   
+   }*/
+
    #contact-panel-left, #contact-panel-right {  
       width: 260px;
       height: 660px;

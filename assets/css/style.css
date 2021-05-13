@@ -325,7 +325,6 @@ footer {
 
 #contact-panel-container {
    width:1100px;
-   text-align:center;
    margin: 75px auto;
 }
 
@@ -341,6 +340,13 @@ footer {
    height: 640px;
 }
 
+.contact-panel h2 {
+   color: #141414;
+   text-transform: uppercase;
+   font-size: 180%;
+   padding-bottom: 20px;
+}
+
 #contact-panel-left {  
    width: 350px;
    float:left;
@@ -349,13 +355,6 @@ footer {
 #contact-panel-right {  
    width: 600px;
    float: right;
-}
-
-#contact-panel-right h2, #contact-panel-left h2 {
-   color: #141414;
-   text-transform: uppercase;
-   font-size: 180%;
-   padding-bottom: 20px;
 }
 
 .text-input {
@@ -408,7 +407,6 @@ footer {
  
    #contact-panel-container {
       width: 100%;
-      text-align: center;
       display: block;
    }
 
@@ -455,10 +453,6 @@ footer {
 
 /* For very small screen sizes from 450px wide and down */
 @media screen and (max-width: 450px) {
-
-  /* .contact-panel, .text-input {
-      letter-spacing: 1px;
-   }*/
 
    #contact-panel-left, #contact-panel-right {  
       width: 260px;

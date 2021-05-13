@@ -363,13 +363,13 @@ footer {
    font-family: Lato, sans-serif;
    font-size: 100%;
    font-weight: 600;
-   letter-spacing: 1.1px;
    color: #fafafa;
    width: 100%;
    margin: 5px 0 20px 0;
    border: 1px solid #fafafa;
    border-radius: 2px;
    padding: 5px;
+   letter-spacing: 1.1px;
 }
 
 .text-input:hover {
@@ -456,6 +456,10 @@ footer {
 /* For very small screen sizes from 450px wide and down */
 @media screen and (max-width: 450px) {
 
+   .contact-panel, .text-input {
+      letter-spacing: 1px;
+   }
+   
    #contact-panel-left, #contact-panel-right {  
       width: 260px;
       height: 660px;

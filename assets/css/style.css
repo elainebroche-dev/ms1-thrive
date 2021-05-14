@@ -110,7 +110,6 @@ hr {
 }
 
 #welcome-text {
-   font-family: Oswald, sans-serif;
    letter-spacing: 4px;
    padding: 40px;
    background-color: rgba(243, 184, 142, 0.7);
@@ -146,31 +145,30 @@ hr {
 }
 
 /* flex-box structure to handle flip-cards positioning */
-.level1-container {
+.level1-ideals-container {
 	display: flex;
 	flex-flow: row wrap;
 	text-align: center;
 	justify-content: center;
 }
 
-.level1-container >div, .level2-container >div {
+.level1-ideals-container >div, .level2-ideals-container >div {
 	display: flex;
 	flex-flow: row wrap;
 	text-align: center;
-   justify-content: center;
 	justify-content : space-around;
 }
 
-.level1-container * {
+.level1-ideals-container * {
 	flex: 1 100%;
 	border-radius: 10px;
 }
 
-.level2-container {
+.level2-ideals-container {
 	flex : 0 1 750px;
 }
 
-.level3-container {
+.level3-ideals-container {
 	flex : 0 0 250px ;
 }
 
@@ -314,7 +312,7 @@ footer {
 
 /* styling for the contact form */
 #contact-section {
-   background-image: url("../images/bruna-branco-7r1HxvVC7AY-unsplash-orig.webp");
+   background-image: url("../images/bruna-branco-7r1HxvVC7AY-unsplash-large.webp");
    background-repeat: no-repeat;
    background-size: auto;
    background-position: center;
@@ -466,41 +464,106 @@ footer {
 
 /* this is stuff that the menu form will use */
 
-.panel-container  {
-   border: 1px solid #e1e;
-   height: 600px;
-   margin: 0 auto;
+#carte-section {
+   background-image: url("../images/bruna-branco-7r1HxvVC7AY-unsplash-large.webp");
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center;
+   width: 100%;
+   overflow: hidden;
+   min-height:900px;
+}
+
+.wrapper-carte {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	justify-content : space-around;
+   max-width: 1600px;
+   margin:auto;
+   padding:35px;
    
 }
 
-.page-middle  {
-   height: 600px;
-   width: 100%;
-   overflow: hidden;
-   display: inline-block;
+.wrapper-carte div {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	justify-content : space-around;
 }
 
-table, th, td {
-   border: 1px solid #e1e;
+.wrapper-carte * {
+	margin: 0 10px;
+	flex: 1 100%;
+	border-radius: 10px;
+}
+
+.panel-carte {
+	background: #fafafa;
+	flex : 0 1 380px ;	
+   text-align: left; 
+   margin: 25px auto;
+   background: palegreen;
+}
+
+.inner-long {
+      background : gold;
+      flex : 0 1 300px ;
+}
+
+.inner-medium {
+   background : pink;
+   flex : 0 1 200px ;
+}
+
+.inner-short {
+   background : paleturquoise;
+   flex : 0 1 50px ;
 }
 
 
-.left-panel {
-   /*border: 1px solid #e1e;*/
-   float:left;
-   width: 33%;
+
+.carte-header {
+   border-bottom : 4px solid green;
+   border-radius : 0;
+   text-transform: uppercase;
+   font-size: 200%;
+   padding-top: 10px;
 }
 
-.right-panel {
-   /*border: 1px solid #e1e;*/
-   float: right;
-   width: 33%;
+.carte-item-title {
+   text-transform: none;
+   font-weight: bold;
+   margin-top: 10px;
+   text-align: left;
 }
 
-.center-panel {
-   /*border: 1px solid #e1e;*/
-   width: 33%;
-   margin: 0 auto;
+.carte-item-description {
+   font-weight: bold;
+   text-align: left;
+}
+
+.carte-footer {
+   letter-spacing: 1px;
+   text-transform : uppercase;
+   font-size: 110%;
+   text-align: center;
+   border-top : 4px solid green;
+   border-radius : 0;
+   margin: 20px;
+   padding-top:10px;
+}
+
+#carte-tagline {
+   letter-spacing: 4px;
+   padding: 40px;
+   background-color: rgba(243, 184, 142, 0.8);
+   text-align: center;
+   color: #fff;
+   font-size: 280%;
+   text-transform: uppercase;
+   max-width : 1100px;
+   margin: 50px auto 0px auto;
 }
 
 
@@ -511,33 +574,6 @@ table, th, td {
 
 
 
-/* Media queries */
-
-
-
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-
-   .panel-container {
-       width: 90%;
-       height: 1200px;
-       margin: 0 auto;
-   }
-
-
-   .panel-container .left-panel, .panel-container .center-panel {
-       width: 100%;
-       float: left;
-       padding: 0;
-   }
-
-   .panel-container .right-panel {
-       clear:both;
-       width: 100%;
-       float: left;
-       padding: 0;
-   }
-}
 
 
 

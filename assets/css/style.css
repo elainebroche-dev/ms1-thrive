@@ -184,10 +184,10 @@ hr {
 /* flip-card structure to transition from image to text */
 .flip-card {
    background-color: transparent;
-   width: 330px;
-   height: 330px;
+   width: 320px;
+   height: 320px;
    perspective: 1000px;
-   padding: 25px 20px;
+   padding: 25px;
    margin: 0 auto;
 }
 
@@ -223,8 +223,8 @@ hr {
 }
 
 .flip-card-front img {
-   width: 330px;
-   height: 330px;
+   width: 320px;
+   height: 320px;
 }
 
 /* Style the back of the flip-cards */

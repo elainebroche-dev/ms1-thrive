@@ -271,6 +271,7 @@ footer {
    margin: 0 auto;
    text-align: center;
    padding-top: 30px;
+   background-color: chartreuse;
 }
 
 #footer-left-panel {
@@ -526,7 +527,7 @@ footer {
    }
 
    #footer-group {
-      width: 100%;
+      width: 80%;
    }
 
    #footer-center-panel,

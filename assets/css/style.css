@@ -519,9 +519,10 @@ footer {
    #menu {
       clear: left;
       float: left;
-      margin-left: 30px;
+      margin-left: 20px;
       margin-bottom: 20px;
       line-height: 25px;
+      width:100%;
    }
 
    #footer-group {

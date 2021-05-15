@@ -112,7 +112,7 @@ hr {
 #welcome-text {
    letter-spacing: 4px;
    padding: 40px;
-   background-color: rgba(243, 184, 142, 0.7);
+   background-color: rgba(243, 184, 142, 0.9);
    position: absolute;
    top: 50%;
    left: 50%;
@@ -322,7 +322,7 @@ footer {
 }
 
 #contact-panel-container {
-   width:1100px;
+   width:1200px;
    margin: 75px auto;
 }
 
@@ -346,7 +346,7 @@ footer {
 }
 
 #contact-panel-left {  
-   width: 350px;
+   width: 400px;
    float:left;
 }
 
@@ -400,8 +400,8 @@ footer {
 }
 
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* For larger to medium screens size from 1300px wide and down */
+@media screen and (max-width: 1300px) {
  
    #contact-panel-container {
       width: 100%;
@@ -443,7 +443,7 @@ footer {
       padding-bottom: 15px;
    }
 
-   #contact-panel-right {  
+   #contact-panel-right, #contact-panel-left {  
       width: 350px;
    }
 
@@ -479,7 +479,7 @@ footer {
 	flex-flow: row wrap;
 	text-align: center;
 	justify-content : space-around;
-   max-width: 1600px;
+   max-width: 1400px;
    margin:auto;
    padding:35px;
    
@@ -489,7 +489,7 @@ footer {
 	display: flex;
 	flex-flow: row wrap;
 	text-align: center;
-	justify-content : space-around;
+	justify-content : space-between;
 }
 
 .wrapper-carte * {
@@ -503,44 +503,39 @@ footer {
 	flex : 0 1 380px ;	
    text-align: left; 
    margin: 25px auto;
-   background: palegreen;
+   background-color: rgba(243, 184, 142, 0.9);
 }
-
-.inner-long {
-      background : gold;
-      flex : 0 1 300px ;
-}
-
-.inner-medium {
-   background : pink;
-   flex : 0 1 200px ;
-}
-
-.inner-short {
-   background : paleturquoise;
-   flex : 0 1 50px ;
-}
-
-
 
 .carte-header {
-   border-bottom : 4px solid green;
+   border-bottom : 4px solid #f57309;
    border-radius : 0;
    text-transform: uppercase;
    font-size: 200%;
    padding-top: 10px;
 }
 
-.carte-item-title {
+.panel-carte h3 {
    text-transform: none;
    font-weight: bold;
    margin-top: 10px;
    text-align: left;
+   color: #fafafa;
+   letter-spacing: 1.1px;
 }
 
-.carte-item-description {
+.panel-carte p {
    font-weight: bold;
    text-align: left;
+   color: #fafafa;
+   letter-spacing: 1.1px;
+}
+
+.inner-medium {
+   flex : 0 1 200px ;
+}
+
+.inner-short {
+   flex : 0 1 50px ;
 }
 
 .carte-footer {
@@ -548,7 +543,7 @@ footer {
    text-transform : uppercase;
    font-size: 110%;
    text-align: center;
-   border-top : 4px solid green;
+   border-top : 4px solid #f57309;
    border-radius : 0;
    margin: 20px;
    padding-top:10px;
@@ -557,13 +552,13 @@ footer {
 #carte-tagline {
    letter-spacing: 4px;
    padding: 40px;
-   background-color: rgba(243, 184, 142, 0.8);
+   background-color: rgba(243, 184, 142, 0.9);
    text-align: center;
-   color: #fff;
    font-size: 280%;
    text-transform: uppercase;
    max-width : 1100px;
    margin: 50px auto 0px auto;
+   color: #fafafa;
 }
 
 

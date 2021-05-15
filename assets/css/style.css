@@ -271,7 +271,6 @@ footer {
    margin: 0 auto;
    text-align: center;
    padding-top: 30px;
-   background-color: chartreuse;
 }
 
 #footer-left-panel {
@@ -523,7 +522,7 @@ footer {
       margin-left: 20px;
       margin-bottom: 20px;
       line-height: 25px;
-      width:100%;
+      width:80%;
    }
 
    #footer-group {

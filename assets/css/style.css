@@ -39,7 +39,7 @@ hr {
    appearance: button;
    background-color: #ee901d;
    border: none;
-   color: white;
+   color: #fafafa;
    padding: 20px;
    text-align: center;
    text-decoration: none;
@@ -112,7 +112,7 @@ hr {
 #welcome-text {
    letter-spacing: 4px;
    padding: 40px;
-   background-color: rgba(243, 184, 142, 0.9);
+   background-color: rgba(243, 184, 142, 0.8);
    position: absolute;
    top: 50%;
    left: 50%;
@@ -208,8 +208,7 @@ hr {
  
  /* Style the front side (fallback if image is missing) */
  .flip-card-front {
-   background-color: #bbb;
-   color: #141414;
+   background-color: #fafafa;
  }
 
  .flip-card-front img {
@@ -219,7 +218,6 @@ hr {
  
  /* Style the back of the flip-cards */
  .flip-card-back {
-   color: #141414;
    transform: rotateY(180deg);
  }
 
@@ -328,7 +326,6 @@ footer {
 
 .contact-panel {  
    text-align: left;
-   color: #fafafa;
    font-weight: 600;
    letter-spacing: 1.1px;
    font-size: 110%;
@@ -339,7 +336,6 @@ footer {
 }
 
 .contact-panel h2 {
-   color: #141414;
    text-transform: uppercase;
    font-size: 180%;
    padding-bottom: 20px;
@@ -360,17 +356,16 @@ footer {
    font-family: Lato, sans-serif;
    font-size: 100%;
    font-weight: 600;
-   color: #fafafa;
    width: 100%;
    margin: 5px 0 20px 0;
-   border: 1px solid #fafafa;
+   border: 1px solid #141414;
    border-radius: 2px;
    padding: 5px;
    letter-spacing: 1.1px;
 }
 
 .text-input:hover {
-   border-color: black;
+   border-color: #fafafa;
 } 
 
 .text-input-line {
@@ -419,7 +414,7 @@ footer {
    text-transform: uppercase;
    max-width : 1050px;
    margin: 50px auto 0px auto;
-   color: #fafafa;
+   color: #fff;
 }
 .wrapper-carte {
 	display: flex;
@@ -463,13 +458,11 @@ footer {
 
 .panel-carte h3 {
    margin-top: 10px;
-   color: #fafafa;
    letter-spacing: 2px;
    font-weight: normal;
 }
 
 .panel-carte p {
-   color: #fafafa;
    font-weight: bolder;
 }
 

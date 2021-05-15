@@ -399,6 +399,98 @@ footer {
    margin:0px;
 }
 
+/* this is styling that the food menu page will use */
+#carte-section {
+   background-image: url("../images/bruna-branco-7r1HxvVC7AY-unsplash-large.webp");
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center;
+   width: 100%;
+   overflow: hidden;
+   min-height:900px;
+}
+
+#carte-tagline {
+   letter-spacing: 4px;
+   padding: 40px;
+   background-color: rgba(243, 184, 142, 0.8);
+   text-align: center;
+   font-size: 280%;
+   text-transform: uppercase;
+   max-width : 1050px;
+   margin: 50px auto 0px auto;
+   color: #fafafa;
+}
+.wrapper-carte {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	justify-content : space-around;
+   max-width: 1200px;
+   margin:auto;
+   padding:0 20px;
+   
+}
+
+.wrapper-carte div {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	justify-content : space-between;
+}
+
+.wrapper-carte * {
+	margin: 0 10px;
+	flex: 1 100%;
+	border-radius: 10px;
+   text-align: left;
+}
+
+.panel-carte {
+	background: #fafafa;
+	flex : 0 1 350px ;	
+   margin: 25px auto;
+   background-color: rgba(243, 184, 142, 0.8);
+}
+
+.carte-header {
+   border-bottom : 4px solid #f57309;
+   border-radius : 0;
+   text-transform: uppercase;
+   font-size: 180%;
+   padding-top: 10px;
+}
+
+.panel-carte h3 {
+   margin-top: 10px;
+   color: #fafafa;
+   letter-spacing: 2px;
+   font-weight: normal;
+}
+
+.panel-carte p {
+   color: #fafafa;
+   font-weight: bolder;
+}
+
+.inner-medium {
+   flex : 0 1 200px ;
+}
+
+.inner-short {
+   flex : 0 1 50px ;
+}
+
+.carte-footer {
+   letter-spacing: 1px;
+   text-transform : uppercase;
+   font-size: 110%;
+   text-align: center;
+   border-top : 4px solid #f57309;
+   border-radius : 0;
+   margin: 20px;
+   padding-top:10px;
+}
 
 /* For larger to medium screens size from 1300px wide and down */
 @media screen and (max-width: 1300px) {
@@ -457,118 +549,3 @@ footer {
       height: 660px;
    }
 }
-
-
-/* css file cleaned up to this point */
-
-
-/* this is stuff that the menu form will use */
-
-#carte-section {
-   background-image: url("../images/bruna-branco-7r1HxvVC7AY-unsplash-large.webp");
-   background-repeat: no-repeat;
-   background-size: auto;
-   background-position: center;
-   width: 100%;
-   overflow: hidden;
-   min-height:900px;
-}
-
-.wrapper-carte {
-	display: flex;
-	flex-flow: row wrap;
-	text-align: center;
-	justify-content : space-around;
-   max-width: 1400px;
-   margin:auto;
-   padding:35px;
-   
-}
-
-.wrapper-carte div {
-	display: flex;
-	flex-flow: row wrap;
-	text-align: center;
-	justify-content : space-between;
-}
-
-.wrapper-carte * {
-	margin: 0 10px;
-	flex: 1 100%;
-	border-radius: 10px;
-}
-
-.panel-carte {
-	background: #fafafa;
-	flex : 0 1 380px ;	
-   text-align: left; 
-   margin: 25px auto;
-   background-color: rgba(243, 184, 142, 0.8);
-}
-
-.carte-header {
-   border-bottom : 4px solid #f57309;
-   border-radius : 0;
-   text-transform: uppercase;
-   font-size: 180%;
-   padding-top: 10px;
-}
-
-.panel-carte h3 {
-   margin-top: 10px;
-   text-align: left;
-   color: #fafafa;
-   letter-spacing: 2px;
-}
-
-.panel-carte p {
-   font-weight: bold;
-   text-align: left;
-   color: #fafafa;
-   letter-spacing: 1.1px;
-   font-size: 100%;
-   font-weight: 600;
-}
-
-.inner-medium {
-   flex : 0 1 200px ;
-}
-
-.inner-short {
-   flex : 0 1 50px ;
-}
-
-.carte-footer {
-   letter-spacing: 1px;
-   text-transform : uppercase;
-   font-size: 110%;
-   text-align: center;
-   border-top : 4px solid #f57309;
-   border-radius : 0;
-   margin: 20px;
-   padding-top:10px;
-}
-
-#carte-tagline {
-   letter-spacing: 4px;
-   padding: 40px;
-   background-color: rgba(243, 184, 142, 0.8);
-   text-align: center;
-   font-size: 280%;
-   text-transform: uppercase;
-   max-width : 1100px;
-   margin: 50px auto 0px auto;
-   color: #fafafa;
-}
-
-
-
-
-
-
-
-
-
-
-
-

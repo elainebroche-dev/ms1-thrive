@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap");
 
 /* clear the decks by defaulting all margin/padding/border settings to 0/none */
 * {
@@ -101,7 +101,7 @@ hr {
 #hero-image {
    height: 600px;
    width: 100%;
-   background: url('../images/bruna-branco-7r1HxvVC7AY-unsplash-cropped.webp') no-repeat center center;
+   background: url("../images/bruna-branco-7r1HxvVC7AY-unsplash-cropped.webp") no-repeat center center;
    animation: hero-fade-in 5s;
    /* animates fade-in effect on loading page */
 }
@@ -201,7 +201,7 @@ hr {
    transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+/* Do a horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
    transform: rotateY(180deg);
 }
@@ -212,8 +212,7 @@ hr {
    position: absolute;
    width: 100%;
    height: 100%;
-   -webkit-backface-visibility: hidden;
-   /* Safari */
+   -webkit-backface-visibility: hidden;  /* Safari */
    backface-visibility: hidden;
 }
 
@@ -288,7 +287,7 @@ footer {
    margin: 0 auto;
    text-align: left;
 }
-
+   
 .footer-text {
    font-size: 90%;
    font-weight: 600;
@@ -333,7 +332,7 @@ footer {
 #carte-tagline {
    letter-spacing: 4px;
    padding: 40px;
-   background-color: rgba(243, 184, 142, 0.8);
+   background-color: rgba(243, 184, 142, 0.9);
    text-align: center;
    font-size: 280%;
    text-transform: uppercase;
@@ -372,7 +371,7 @@ footer {
    background: #fafafa;
    flex: 0 1 350px;
    margin: 25px auto;
-   background-color: rgba(243, 184, 142, 0.8);
+   background-color: rgba(243, 184, 142, 0.9);
 }
 
 .carte-header {
@@ -429,7 +428,7 @@ footer {
    font-weight: 600;
    letter-spacing: 1.1px;
    font-size: 110%;
-   background-color: rgba(243, 184, 142, 0.8);
+   background-color: rgba(243, 184, 142, 0.9);
    border-radius: 10px;
    padding: 30px;
    height: 640px;

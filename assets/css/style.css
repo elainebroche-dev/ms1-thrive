@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap");
 
+/*@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');*/
+
+
 /* clear the decks by defaulting all margin/padding/border settings to 0/none */
 * {
    margin: 0;
@@ -379,13 +382,26 @@ footer {
    text-transform: uppercase;
    font-size: 180%;
    padding-top: 0.625rem;
+   font-family: Oswald, sans-serif;
+   letter-spacing: 0.25rem;
+   font-weight: bold;
 }
 
-.panel-carte h3 {
+.panel-carte p {
+   letter-spacing: 0.05rem;
+   font-weight: 600;
+   color: #141414;
+}
+
+.panel-carte span {
    margin-top: 0.625rem;
    letter-spacing: 0.125rem;
-   font-weight: normal;
+   font-size: 1.17rem;
+   text-transform: uppercase;
+   font-family: Oswald, sans-serif;
+   color: #141414;
 }
+
 
 .inner-medium {
    flex: 0 1 9.375rem;
@@ -396,14 +412,21 @@ footer {
 }
 
 .carte-footer {
-   letter-spacing: 0.0625rem;
+   letter-spacing: 0.1rem;
    text-transform: uppercase;
-   font-size: 110%;
-   text-align: center;
    border-top: 0.25rem solid #f57309;
    border-radius: 0;
-   margin: 1.25rem;
+   margin: 0.8rem;
    padding-top: 0.625rem;
+   font-family: Oswald, sans-serif;
+   font-weight: bold;
+   font-size: 1.17rem;
+   line-height: 1.2;
+}
+
+.carte-footer p {
+   flex: 0 100%;
+   text-align: center;
 }
 
 /* styling for the contact form */
@@ -430,7 +453,7 @@ footer {
    background-color: rgba(243, 184, 142, 0.9);
    border-radius: 0.625rem;
    padding: 1.875rem;
-   height: 40rem;
+   height: 40.5rem;
 }
 
 .contact-panel h2 {
@@ -547,8 +570,9 @@ footer {
 
    #contact-panel-left,
    #contact-panel-right {
-      width: 16.25rem;
+      width: 15.75rem;
       height: 41.25rem;
+      padding: 24px;
    }
 
    #welcome-text  {
@@ -557,4 +581,14 @@ footer {
    #welcome-text h3 {
       font-size: 400%
    }
+}
+
+/* For very small screen sizes re-size the flip-cards */
+@media screen and (max-width: 20rem) {
+   .flip-card, 
+   .flip-card-front img {
+      width: 18.75rem;
+      height: 18.75rem;
+  }
+
 }

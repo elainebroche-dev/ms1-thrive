@@ -101,7 +101,7 @@ hr {
 #hero-image {
    height: 600px;
    width: 100%;
-   background: url("../images/bruna-branco-7r1HxvVC7AY-unsplash-cropped.webp") no-repeat center center;
+   background: url("../images/citrus-hero-image.webp") no-repeat center center;
    animation: hero-fade-in 5s;
    /* animates fade-in effect on loading page */
 }
@@ -320,7 +320,7 @@ footer {
 
 /* this is styling for the food menu page  */
 #carte-section {
-   background-image: url("../images/bruna-branco-7r1HxvVC7AY-unsplash-large.webp");
+   background-image: url("../images/citrus-background.webp");
    background-repeat: no-repeat;
    background-size: auto;
    background-position: center;
@@ -409,7 +409,7 @@ footer {
 
 /* styling for the contact form */
 #contact-section {
-   background-image: url("../images/bruna-branco-7r1HxvVC7AY-unsplash-large.webp");
+   background-image: url("../images/citrus-background.webp");
    background-repeat: no-repeat;
    background-size: auto;
    background-position: center;

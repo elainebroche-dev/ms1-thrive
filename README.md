@@ -46,12 +46,10 @@ to be written
 
     - The navigation bar has a consistent look and placement on all three pages of the website supporting easy navigation.  It includes a Logo, Home page, Menu and Contact links and is responsive on multiple screen sizes.  On small screens (e.g. mobile devices) the Home, Menu and Contact links move to under the Logo.
     
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-
 
 -   __F02 Landing Page image and call to action__
 
-            - to be written
+    - The landing area includes a photograph and a text overlay that together clearly identify the purpose of the business and the type of product it sells.  The fresh citrus colours and 'welcome' message are intended to be appealing to the user and convey a sense of health, energy and friendliness.
 
 - __F03 tagline__
 

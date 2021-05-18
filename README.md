@@ -4,7 +4,16 @@
 
 THRIVE Juices and Smoothies is a site that advertises a fictional refreshment business.  The business primarily sells juices and smoothies and also a limited range of healthy snacks and hot beverages.  The site is targeted toward people who want to buy healthy refreshments "on the go" - the business also has a seating area for anyone who wants to stay and socialise but it's primary USP is the appeal, taste and quality of the products.  The site will be useful for people who want to check out the range of products available, location of the business and it's opening hours.
 
-<h2 align="center"><img src="https://github.com/elainebroche-dev/ms1-thrive/blob/master/assets/documentation/supp-images/AmIResponsive.PNG" alt="screen shots of website"></h2>
+![Mockup](assets/documentation/supp-images/resp-mockup.png)
+
+## Index – Table of Contents
+* [User Experience (UX)](#user-experience-ux) 
+* [Features](#features)
+* [Design](#design)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
 ## User Experience (UX)
 
@@ -68,7 +77,7 @@ to be written
 
     - to be written
 
-### Features Left to Implement
+### Features which could be implemented in the future
 
 - __Company Timeline__
     - A 'Company Timeline' page could be added to provide more information on the evolution of the business and for users who would like to know more about the origins of the company, it's ethos and it's involvement with the community.
@@ -83,33 +92,49 @@ to be written
 
 ## Design
 
--    ### Imagery
-        -   The hero and large background images have been chosen because they are eye-catching, fresh and bright.  The citrus and light pastel colours in the images were chosen to help convey a sense of energy, health and freshness.  The images depict fruit to align with the main business goal of selling juices and smoothies and were chosen for their "simplicity" (- e.g. a single type of fruit or repeating theme) to help keep the site clear and easy to use.
+-   ### Imagery
+    -   The hero and large background images have been chosen because they are eye-catching, fresh and bright.  The citrus and light pastel colours in the images were chosen to help convey a sense of energy, health and freshness.  The images depict fruit to align with the main business goal of selling juices and smoothies and were chosen for their "simplicity" (- e.g. a single type of fruit or repeating theme) to help keep the site clear and easy to use.
 
--    ### Colour Scheme
-        -  A citrus/pastel palette was used to convey a fresh, energetic mood
-        ![Colour Palette](https://elainebroche-dev.github.io/ms1-thrive/documentation/supp-images/citruspalette.png)
+-   ### Colour Scheme
+    -  A citrus/pastel palette was chosen to convey a fresh, energetic mood.  The colours picked were inspired by a palette from [Lily Bug Design](https://www.lilybugdesign.co.nz/colour-wall)
 
--    ### Typography
-        -   Google Fonts were used to import Lato and Oswald fonts into styles.css.  These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
+        ![Colour Palette](assets/documentation/supp-images/citruspalette.png)
+
+-   ### Typography
+    -   Google Fonts were used to import Lato and Oswald fonts into styles.css.  These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
 
 
+-   ### Wireframes
 
--    ### Wireframes
+    -   #### Main Page Wireframes
 
-    -   #### Desktop Wireframes - [View](ebr : url needed here)
+        ![Main](assets/documentation/wireframes/index-page.png)
 
-    -   #### Tablet Wireframes - [View](ebr : url needed here)
+    -   #### Menu Page Wireframes
 
-    -   #### Mobile Wireframes - [View](ebr : url needed here)
+        ![Menu](assets/documentation/wireframes/menu-page.png)
 
-- ## Technologies
+    -   #### Contact Page Wireframes
 
-    1. HTML
-    2. CSS
-    3. [FontAwesome](https://fontawesome.com/) for icons.
-    4. [Google Fonts](https://fonts.google.com/) for Oswald and Lato fonts.
+        ![Contact](assets/documentation/wireframes/contact-page.png)
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+-   [Google Fonts:](https://fonts.google.com/) was used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project.
+-   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
+-   [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+-   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
+-   [Microsoft Paint 3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) was used for resizing images and editing photos for the website.
+-   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes during the design process.
     
+
 ## Testing
 to be written
 
@@ -130,7 +155,9 @@ to be written
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu 
   - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. The live link can be found here - [THRIVE Juices and Smooties](https://elainebroche-dev.github.io/ms1-thrive/index.html) 
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  
+  The live link can be found here - [THRIVE Juices and Smooties](https://elainebroche-dev.github.io/ms1-thrive/index.html) 
 
 
 ## Credits 

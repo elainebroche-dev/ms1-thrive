@@ -174,8 +174,13 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
     - result for contact.html
       ![HTML results contact](assets/documentation/validation-results/html-validation-result-3.png)
 
-    - Full results are available here :
-        [HTML Validation Results - Home Page](./assets/documentation/validation-results/html-validation-resuls-index.pdf)
+    - Full validation results are available on github here :
+
+        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/assets/documentation/validation-results/html-validation-results-index.pdf" target="_blank">HTML Results - Home Page</a>
+
+        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/assets/documentation/validation-results/html-validation-results-menu.pdf" target="_blank">HTML Results - Menu Page</a>
+
+        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/assets/documentation/validation-results/html-validation-results-contact.pdf" target="_blank">HTML Results - Contact Page</a>
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
@@ -185,6 +190,9 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
     the warnings are due to 1) import of the Google fonts and 2) a webkit extension for Safari support of the flip-card effect used on the home page.
 
+    - Full validation results are available on github here :
+
+        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/assets/documentation/validation-results/css-validation-results.pdf" target="_blank">CSS Results - styles.css</a>
 
 ### Test Cases and Results
 

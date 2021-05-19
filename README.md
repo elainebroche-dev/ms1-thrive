@@ -73,7 +73,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
         - Opening Times - having the opening times in the footer on each page allows the user to quickly and easily find this information, this is important for this type of business as it is information that the user needs in order to make use of the company (product is sold offline).
 
-        - Address - similar to the opening times, the address of this type of business is important to the user in order for them to use the company and so has been repeated on each page in the footer to quickly and easily find out where the company is located 
+        - Address - similar to the opening times, the address of this type of business is important to the user in order for them to use the company and so has been repeated on each page in the footer to allow the user to quickly and easily find out where the company is located 
 
         - Stay in Touch - this area has links to social media sites associated with the organisation encouraging the user to keep connected.  The links will open in a new tab to allow easy navigation for the user. The organisation can use these sites to promote brand awareness and keep customers interested through updates, offers, chats and other marketing efforts. (As THRIVE is a ficticious company, the links currently just go to the social media main websites.)
 
@@ -81,7 +81,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
 - __F06 Menu Page - 'Carte' section__
 
-    - The menu page gives a list of the products that can be purchased at THRIVE.  For ease of use and clarity for the user the products have been split into three panels, one for 'Fresh Juices', one for 'Smoothies', and the the third for 'Healthy Snacks and Hot Drinks'.  Pricing and ingredients are also shown.
+    - The menu page gives a list of the products that can be purchased at THRIVE.  For ease of use and clarity for the user the products have been split into three panels, one for 'Fresh Juices', one for 'Smoothies', and the third for 'Healthy Snacks and Hot Drinks'.  Pricing and ingredients are also shown.
     
     - For ease of use, a consistent look and feel is maintained through the use of the same background image as is used for the landing image on the main page, and in applying the same background colour to the menu panels as is used on the overlay text area on the main page.  Text colour is kept simple for readability and to minimise distraction.
 
@@ -96,7 +96,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
 - __F08 Contact Page - 'How to Find Us'__
 
-    - The 'How to Find Us' panel of the Contact page gives the user an interactive google map area showing the location of the company along with details on full address, phone number and administration email address in large font to make it easily readable.  By clicking the 'View larger map' link the user can go to the google maps site for the address - this opens in a separate tab to allow ease of navigation.
+    - The 'How to Find Us' panel of the Contact page gives the user an interactive google map showing the location of the company along with details on full address, phone number and administration email address in large font to make it easily readable.  By clicking the 'View larger map' link the user can go to the google maps site for the address - this opens in a separate tab to allow ease of navigation.
 
       ![Find Us](assets/documentation/supp-images/f08-find-us.png)
 
@@ -110,10 +110,10 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 ### Features which could be implemented in the future
 
 - __Company Timeline__
-    - A 'Company Timeline' page could be added to provide more information on the evolution of the business and for users who would like to know more about the origins of the company, its ethos and its involvement with the community.
+    - A 'Company Timeline' page could be added to provide more information on the evolution of the business for users who would like to know more about the origins of the company, its ethos and its involvement with the community.
 
 - __Navigation bar improvements__
-    - The functionality of the navigation bar could be extended to make it "sticky" so that it would be available to user without scrolling.
+    - The functionality of the navigation bar could be extended to make it "sticky" so that it would be available to the user without scrolling.
     - A hamburger menu could be implemented to save space on smaller screens.
 
 ## Design
@@ -155,7 +155,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
 -   [Google Fonts:](https://fonts.google.com/) was used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project.
 -   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
--   [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+-   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 -   [Microsoft Paint 3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) was used for resizing images and editing photos for the website.
 -   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes during the design process.

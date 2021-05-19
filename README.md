@@ -1,8 +1,8 @@
 <h1 align="center">Thrive Juices and Smoothies Website</h1>
 
-[View the live project here.](https://elainebroche-dev.github.io/ms1-thrive/)
+[View the live project here](https://elainebroche-dev.github.io/ms1-thrive/)
 
-THRIVE Juices and Smoothies is a site that advertises a fictional refreshment business.  The business primarily sells juices and smoothies and also a limited range of healthy snacks and hot beverages.  The site is targeted toward people who want to buy healthy refreshments "on the go" - the business also has a seating area for anyone who wants to stay and socialise but it's primary USP is the appeal, taste and quality of the products.  The site will be useful for people who want to check out the range of products available, location of the business and it's opening hours.
+THRIVE Juices and Smoothies is a site that advertises a fictional refreshment business.  The business primarily sells juices and smoothies and also a limited range of healthy snacks and hot beverages.  The site is targeted toward people who want to buy healthy refreshments "on the go" - the business also has a seating area for anyone who wants to stay and socialise but its primary USP is the appeal, taste and quality of the products.  The site will be useful for people who want to check out the range of products available, the location and opening hours of the business.
 
 ![Mockup](assets/documentation/supp-images/resp-mockup.png)
 
@@ -63,7 +63,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
 - __F04 Company Ideals section__
 
-    - The company ideals are presented using 4 flip cards below the tagline on the main page.  These cards give the user more information about the organisation in relation to it's strategy in the areas of quality, sourcing of ingredients, recycling and philanthropy.
+    - The company ideals are presented using 4 flip cards below the tagline on the main page.  These cards give the user more information about the organisation in relation to its strategy in the areas of quality, sourcing of ingredients, recycling and philanthropy.
     
       ![Company Ideals](assets/documentation/supp-images/f04-company-ideals.png)
 
@@ -110,7 +110,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 ### Features which could be implemented in the future
 
 - __Company Timeline__
-    - A 'Company Timeline' page could be added to provide more information on the evolution of the business and for users who would like to know more about the origins of the company, it's ethos and it's involvement with the community.
+    - A 'Company Timeline' page could be added to provide more information on the evolution of the business and for users who would like to know more about the origins of the company, its ethos and its involvement with the community.
 
 - __Navigation bar improvements__
     - The functionality of the navigation bar could be extended to make it "sticky" so that it would be available to user without scrolling.
@@ -188,7 +188,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
       ![CSS results 1](assets/documentation/validation-results/css-validation-result-1.png)
       ![CSS results 2](assets/documentation/validation-results/css-validation-result-2.png)
 
-    the warnings are due to 1) import of the Google fonts and 2) a webkit extension for Safari support of the flip-card effect used on the home page.
+      The warnings are due to 1) import of the Google fonts and 2) a webkit extension for Safari support of the flip-card effect used on the home page.
 
     - Full validation results are available on github here :
 
@@ -196,7 +196,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
 ### Test Cases and Results
 
-- The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised :
+- The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised (click image to open):
 
   ![Test Results](assets/documentation/supp-images/test-cases.png)
 
@@ -207,7 +207,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
   
-  The live link can be found here - [THRIVE Juices and Smooties](https://elainebroche-dev.github.io/ms1-thrive/index.html) 
+  The live link can be found here - [THRIVE Juices and Smoothies](https://elainebroche-dev.github.io/ms1-thrive/index.html) 
 
 
 ## Credits 
@@ -218,8 +218,8 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
 ### Code
 - Code on how to do the fade-in of the hero image came from information on this page : [CSS Image fade-in tutorial](https://blog.hubspot.com/website/css-fade-in)
-- Code on how to do a rounded button as seen on the index.html page was based on code on : [W3Schools Rounded button tutorial](https://www.w3schools.com/howto/howto_css_round_buttons.asp)
-- Code on how to do the flip-card effect on the index.html page was based on example code on : [W3Schools Flip card tutorial](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+- Code on how to do a rounded button as seen on the Home page was based on code on : [W3Schools Rounded button tutorial](https://www.w3schools.com/howto/howto_css_round_buttons.asp)
+- Code on how to do the flip-card effect on the Home page was based on example code on : [W3Schools Flip card tutorial](https://www.w3schools.com/howto/howto_css_flip_card.asp)
 - Code on how to include google map with marker was based on code from this site :  [How to embed Google Map](https://www.maps.ie/create-google-map/)
 - Code on how to implement flex boxes was based on instructions from [YouTube Flexbox Tutorial](https://www.youtube.com/watch?v=S0a7PEOi0do)
 

@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap");
 
-/*@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');*/
-
-
-/* clear the decks by defaulting all margin/padding/border settings to 0/none */
+/* start off by defaulting all margin/padding/border settings to 0/none */
 * {
    margin: 0;
    padding: 0;
@@ -214,7 +211,8 @@ hr {
    position: absolute;
    width: 100%;
    height: 100%;
-   -webkit-backface-visibility: hidden;  /* Safari */
+   -webkit-backface-visibility: hidden;
+   /* Safari */
    backface-visibility: hidden;
 }
 
@@ -289,7 +287,7 @@ footer {
    margin: 0 auto;
    text-align: left;
 }
-   
+
 .footer-text {
    font-size: 90%;
    font-weight: 600;
@@ -517,7 +515,6 @@ footer {
 
 /* For larger to medium screens size from 81.25rem wide and down */
 @media screen and (max-width: 81.25rem) {
-
    #contact-panel-container {
       width: 100%;
       display: block;
@@ -536,14 +533,13 @@ footer {
 
 /* For small screen sizes from 46.875rem wide and down */
 @media screen and (max-width: 46.875rem) {
-
    #menu {
       clear: left;
       float: left;
       margin-left: 1.25rem;
       margin-bottom: 1.25rem;
       line-height: 1.56rem;
-      width:90%;
+      width: 90%;
    }
 
    #footer-group {
@@ -567,7 +563,7 @@ footer {
 
 /* For very small screen sizes from 28.125rem wide and down */
 @media screen and (max-width: 28.125rem) {
-
+   
    #contact-panel-left,
    #contact-panel-right {
       width: 15.75rem;
@@ -575,9 +571,10 @@ footer {
       padding: 2rem 1.5rem;
    }
 
-   #welcome-text  {
+   #welcome-text {
       padding: 2rem 0.625rem;
    }
+
    #welcome-text h3 {
       font-size: 400%
    }
@@ -585,10 +582,10 @@ footer {
 
 /* For very small screen sizes re-size the flip-cards */
 @media screen and (max-width: 20rem) {
-   .flip-card, 
+
+   .flip-card,
    .flip-card-front img {
       width: 18.75rem;
       height: 18.75rem;
-  }
-
+   }
 }

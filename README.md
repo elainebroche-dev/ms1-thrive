@@ -174,12 +174,16 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
     - result for contact.html
       ![HTML results contact](assets/documentation/validation-results/html-validation-result-3.png)
 
+    - Full results are available here :
+        [HTML Validation Results - Home Page](assets/documentation/validation-results/html-validation-resuls-index.pdf)
+
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-    - result for styles.css
+    - result for styles.css 
       ![CSS results 1](assets/documentation/validation-results/css-validation-result-1.png)
       ![CSS results 2](assets/documentation/validation-results/css-validation-result-2.png)
 
+    the warnings are due to 1) import of the Google fonts and 2) a webkit extension for Safari support of the flip-card effect used on the home page.
 
 
 ### Test Cases and Results

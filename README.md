@@ -175,7 +175,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
       ![HTML results contact](assets/documentation/validation-results/html-validation-result-3.png)
 
     - Full results are available here :
-        [HTML Validation Results - Home Page](assets/documentation/validation-results/html-validation-resuls-index.pdf)
+        [HTML Validation Results - Home Page](./assets/documentation/validation-results/html-validation-resuls-index.pdf)
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 

@@ -37,7 +37,7 @@ hr {
 }
 
 .active {
-   border-bottom: 0.0625 solid #141414;
+   border-bottom: 0.0625rem solid #141414;
 }
 
 .button {
@@ -317,7 +317,7 @@ footer {
 #disclaimer {
    clear: both;
    text-align: center;
-   padding: 1.875remx;
+   padding: 1.875rem;
 }
 
 /* this is styling for the food menu page  */

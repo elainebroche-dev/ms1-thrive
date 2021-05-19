@@ -162,19 +162,31 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
     
 
 ## Testing
-to be written
 
 ### Validator Testing
-to be written
 
-### Unfixed Bugs
-to be written
+- [HTML Validator](https://validator.w3.org/)
+
+    - result for index.html
+      ![HTML results index](assets/documentation/validation-results/html-validation-result-1.png)
+    - result for menu.html
+      ![HTML results menu](assets/documentation/validation-results/html-validation-result-2.png)
+    - result for contact.html
+      ![HTML results contact](assets/documentation/validation-results/html-validation-result-3.png)
+
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+    - result for styles.css
+      ![CSS results 1](assets/documentation/validation-results/css-validation-result-1.png)
+      ![CSS results 2](assets/documentation/validation-results/css-validation-result-2.png)
+
+
 
 ### Test Cases and Results
-to be written
 
-## Traceability matrix to cross-reference each test case with the feature(s) it exercises :
-to be written
+- The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised :
+
+  ![Test Results](assets/documentation/supp-images/test-cases.png)
 
 ## Deployment
 

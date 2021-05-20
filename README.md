@@ -194,9 +194,16 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
         - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/assets/documentation/validation-results/css-validation-results.pdf" target="_blank">CSS Results - styles.css</a>
 
+### Browser Compatibility
+
+- Testing has been carried out on the following browsers :
+    - Chrome Version 90.0.4430.212 (Official Build) (64-bit)
+    - Firefox Version 88.0.1 (64-bit)
+    - Edge Version 90.0.818.62 (Official build) (64-bit)
+    
 ### Test Cases and Results
 
-- The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised (click image to open):
+- The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised :
 
   ![Test Results](assets/documentation/supp-images/test-cases.png)
 

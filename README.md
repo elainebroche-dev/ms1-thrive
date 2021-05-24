@@ -208,6 +208,12 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
   ![Test Results](documentation/supp-images/test-cases.png)
 
+### Known bugs
+
+- My mentor reported an issue with the "Send Message" button when viewed on an iphone during a review meeting.  Neither of us has since been able to re-create this using the browser dev tools but I am adding an image of the issue here for completeness :
+
+  ![Bug01](documentation/supp-images/bug01-send-message-issue.png)
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 

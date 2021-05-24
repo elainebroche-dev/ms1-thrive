@@ -4,7 +4,7 @@
 
 THRIVE Juices and Smoothies is a site that advertises a fictional refreshment business.  The business primarily sells juices and smoothies and also a limited range of healthy snacks and hot beverages.  The site is targeted toward people who want to buy healthy refreshments "on the go" - the business also has a seating area for anyone who wants to stay and socialise but its primary USP is the appeal, taste and quality of the products.  The site will be useful for people who want to check out the range of products available, the location and opening hours of the business.
 
-![Mockup](assets/documentation/supp-images/resp-mockup.png)
+![Mockup](documentation/supp-images/resp-mockup.png)
 
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
@@ -44,7 +44,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
     - The navigation bar has a consistent look and placement on all three pages of the website supporting easy navigation.  It includes a simple Logo, Home page, Menu and Contact links and is responsive on multiple screen sizes.  On small screens (e.g. mobile devices) the Home, Menu and Contact links move to under the Logo.
 
-      ![Navbar](assets/documentation/supp-images/f01-nav-bar.png)
+      ![Navbar](documentation/supp-images/f01-nav-bar.png)
     
 
 -   __F02 Landing Page image and call to action__
@@ -53,19 +53,19 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
     - A large bright "See Our Menu" button is placed central to the screen as an eye-catching call to action which gives the user an obvious quick route to the menu page.
 
-      ![Landing Area](assets/documentation/supp-images/f02-landing.png)
+      ![Landing Area](documentation/supp-images/f02-landing.png)
 
 - __F03 Tagline__
 
     - The "enjoy here or takeaway - the choice is yours" tagline appears on the main page and again on the menu page to let the user know that seating is available and to help re-inforce consistency in branding.
 
-      ![Tagline](assets/documentation/supp-images/f03-tagline.png)
+      ![Tagline](documentation/supp-images/f03-tagline.png)
 
 - __F04 Company Ideals section__
 
     - The company ideals are presented using 4 flip cards below the tagline on the main page.  These cards give the user more information about the organisation in relation to its strategy in the areas of quality, sourcing of ingredients, recycling and philanthropy.
     
-      ![Company Ideals](assets/documentation/supp-images/f04-company-ideals.png)
+      ![Company Ideals](documentation/supp-images/f04-company-ideals.png)
 
 - __F05 Footer__
 
@@ -77,7 +77,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
         - Stay in Touch - this area has links to social media sites associated with the organisation encouraging the user to keep connected.  The links will open in a new tab to allow easy navigation for the user. The organisation can use these sites to promote brand awareness and keep customers interested through updates, offers, chats and other marketing efforts. (As THRIVE is a ficticious company, the links currently just go to the social media main websites.)
 
-      ![Footer](assets/documentation/supp-images/f05-footer.png)
+      ![Footer](documentation/supp-images/f05-footer.png)
 
 - __F06 Menu Page - 'Carte' section__
 
@@ -85,27 +85,27 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
     
     - For ease of use, a consistent look and feel is maintained through the use of the same background image as is used for the landing image on the main page, and in applying the same background colour to the menu panels as is used on the overlay text area on the main page.  Text colour is kept simple for readability and to minimise distraction.
 
-       ![Menu Page](assets/documentation/supp-images/f06-menu.png)
+       ![Menu Page](documentation/supp-images/f06-menu.png)
 
 
 - __F07 Contact Page - 'Contact Us'__
 
     - The 'Contact Us' panel of the Contact page allows the user to send a message/give feedback to the company and if they want, sign up to the company mailing list to get discount codes and offers.  The user is asked to provide their name and email address when sending a message.  By default, the option to join the mailing list is set to 'no' - to prevent them accidentally signing up for the mailing list and getting unwanted email.  Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they submitted displayed)
 
-      ![Contact Us](assets/documentation/supp-images/f07-contact-us.png)
+      ![Contact Us](documentation/supp-images/f07-contact-us.png)
 
 - __F08 Contact Page - 'How to Find Us'__
 
     - The 'How to Find Us' panel of the Contact page gives the user an interactive google map showing the location of the company along with details on full address, phone number and administration email address in large font to make it easily readable.  By clicking the 'View larger map' link the user can go to the google maps site for the address - this opens in a separate tab to allow ease of navigation.
 
-      ![Find Us](assets/documentation/supp-images/f08-find-us.png)
+      ![Find Us](documentation/supp-images/f08-find-us.png)
 
 
 - __How these features support the User Stories__
 
     - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and categorised into groups A (first time visitor), B (returning visitor) and C (frequent visitor).  The existing features are listed above as F01 to F08.  Below is a traceability matrix cross-referencing the user stories with the features, illustrating which features support which stories :
 
-    ![User Story Feature Matrix](assets/documentation/supp-images/us-feat-matrix.png)
+    ![User Story Feature Matrix](documentation/supp-images/us-feat-matrix.png)
 
 ### Features which could be implemented in the future
 
@@ -124,7 +124,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 -   ### Colour Scheme
     -  A citrus/pastel palette was chosen to convey a fresh, energetic mood.  The colours picked were inspired by a palette from [Lily Bug Design](https://www.lilybugdesign.co.nz/colour-wall)
 
-        ![Colour Palette](assets/documentation/supp-images/citruspalette.png)
+        ![Colour Palette](documentation/supp-images/citruspalette.png)
 
 -   ### Typography
     -   Google Fonts were used to import Lato and Oswald fonts into styles.css.  These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
@@ -134,15 +134,15 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
     -   #### Main Page Wireframes
 
-        ![Main](assets/documentation/wireframes/index-page.png)
+        ![Main](documentation/wireframes/index-page.png)
 
     -   #### Menu Page Wireframes
 
-        ![Menu](assets/documentation/wireframes/menu-page.png)
+        ![Menu](documentation/wireframes/menu-page.png)
 
     -   #### Contact Page Wireframes
 
-        ![Contact](assets/documentation/wireframes/contact-page.png)
+        ![Contact](documentation/wireframes/contact-page.png)
 
 ## Technologies Used
 
@@ -168,31 +168,31 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 - [HTML Validator](https://validator.w3.org/)
 
     - result for index.html
-      ![HTML results index](assets/documentation/validation-results/html-validation-result-1.png)
+      ![HTML results index](documentation/validation-results/html-validation-result-1.png)
     - result for menu.html
-      ![HTML results menu](assets/documentation/validation-results/html-validation-result-2.png)
+      ![HTML results menu](documentation/validation-results/html-validation-result-2.png)
     - result for contact.html
-      ![HTML results contact](assets/documentation/validation-results/html-validation-result-3.png)
+      ![HTML results contact](documentation/validation-results/html-validation-result-3.png)
 
     - Full validation results are available on github here :
 
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/assets/documentation/validation-results/html-validation-results-index.pdf" target="_blank">HTML Results - Home Page</a>
+        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-index.pdf" target="_blank">HTML Results - Home Page</a>
 
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/assets/documentation/validation-results/html-validation-results-menu.pdf" target="_blank">HTML Results - Menu Page</a>
+        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-menu.pdf" target="_blank">HTML Results - Menu Page</a>
 
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/assets/documentation/validation-results/html-validation-results-contact.pdf" target="_blank">HTML Results - Contact Page</a>
+        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-contact.pdf" target="_blank">HTML Results - Contact Page</a>
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
     - result for styles.css 
-      ![CSS results 1](assets/documentation/validation-results/css-validation-result-1.png)
-      ![CSS results 2](assets/documentation/validation-results/css-validation-result-2.png)
+      ![CSS results 1](documentation/validation-results/css-validation-result-1.png)
+      ![CSS results 2](documentation/validation-results/css-validation-result-2.png)
 
       The warnings are due to 1) import of the Google fonts and 2) a webkit extension for Safari support of the flip-card effect used on the home page.
 
     - Full validation results are available on github here :
 
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/assets/documentation/validation-results/css-validation-results.pdf" target="_blank">CSS Results - styles.css</a>
+        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/css-validation-results.pdf" target="_blank">CSS Results - styles.css</a>
 
 ### Browser Compatibility
 
@@ -205,7 +205,7 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
 - The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised (click to open iamge):
 
-  ![Test Results](assets/documentation/supp-images/test-cases.png)
+  ![Test Results](documentation/supp-images/test-cases.png)
 
 ## Deployment
 

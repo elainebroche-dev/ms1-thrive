@@ -20,6 +20,6 @@
       "**/CVS": true
    },
    "files.autoSave": "off",
-   "workbench.colorTheme": "Default Light+",
+   "workbench.colorTheme": "Default Dark+",
    "editor.defaultFormatter": "HookyQR.beautify",
 }

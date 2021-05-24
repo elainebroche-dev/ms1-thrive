@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap");
 
+:root {
+   --darkgrey: #141414;
+   --offwhite: #fafafa;
+   --white: #fff;
+   --panelorange : rgba(243,184,142,0.9);
+   --midgrey : #3a3a3a;
+   --brightorange : #f57309;
+   --buttonorange : #ee901d;
+   --palepink: #f5bccf;
+   --paleorange: #edbd59;
+   --palegreen: #cde59b;
+   --paleblue: #baeade;
+}
+
 /* start off by defaulting all margin/padding/border settings to 0/none */
 * {
    margin: 0;
@@ -10,7 +24,9 @@
 body {
    font-family: Lato, sans-serif;
    font-weight: 300;
-   color: #141414;
+   color: var(--darkgrey);
+   max-width: 2000px;
+   margin: 0 auto;
 }
 
 /* headings and logo */
@@ -19,7 +35,7 @@ h2,
 h3 {
    font-family: Oswald, sans-serif;
    letter-spacing: 0.25rem;
-   color: #141414;
+   color: var(--darkgrey);
 }
 
 h3 {
@@ -28,32 +44,32 @@ h3 {
 }
 
 hr {
-   border-top: 0.125rem solid #3a3a3a;
+   border-top: 0.125rem solid var(--midgrey);
    width: 100%;
    margin: 0.3125rem 0 0.625rem;
 }
 
 .active {
-   border-bottom: 0.0625rem solid #141414;
+   border-bottom: 0.0625rem solid var(--darkgrey);
 }
 
 .button {
-   background-color: #ee901d;
+   background-color: var(--buttonorange);
    border: none;
-   color: #fafafa;
+   color: var(--offwhite);
    padding: 1.25rem;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 1.25rem;
-   border-radius: 0.5rem;
+   border-radius: 8px;
    font-weight: bold;
    box-shadow: 0.3125rem 0.625rem #888888;
    margin-top: 1.875rem;
 }
 
 .button:hover {
-   background-color: #f57309;
+   background-color: var(--brightorange);
 }
 
 #logo {
@@ -86,7 +102,7 @@ hr {
 }
 
 #menu a:hover {
-   border-bottom: 0.0625rem solid #141414;
+   border-bottom: 0.0625rem solid var(--darkgrey);
 }
 
 /* hero image and text */
@@ -125,17 +141,17 @@ hr {
    left: 50%;
    transform: translate(-50%, -50%);
    text-align: center;
-   color: #fff;
+   color: var(--white);
    text-transform: uppercase;
 }
 
 #welcome-text h2 {
-   color: #fff;
+   color: var(--white);
    font-size: 150%;
 }
 
 #welcome-text h3 {
-   color: #fff;
+   color: var(--white);
    font-size: 450%;
    font-weight: bold;
    line-height: 1;
@@ -169,7 +185,7 @@ hr {
 
 .level1-ideals-container * {
    flex: 1 100%;
-   border-radius: 0.625rem;
+   border-radius: 10px;
 }
 
 .level2-ideals-container {
@@ -218,7 +234,7 @@ hr {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-   background-color: #fafafa;
+   background-color: var(--offwhite);
 }
 
 .flip-card-front img {
@@ -244,19 +260,19 @@ hr {
 }
 
 #flip-card-back-1 {
-   background-color: #f5bccf;
+   background-color: var(--palepink);
 }
 
 #flip-card-back-2 {
-   background-color: #edbd59;
+   background-color: var(--paleorange);
 }
 
 #flip-card-back-3 {
-   background-color: #cde59b;
+   background-color: var(--palegreen);
 }
 
 #flip-card-back-4 {
-   background-color: #baeade;
+   background-color: var(--paleblue);
 }
 
 /* footer styling */
@@ -308,7 +324,7 @@ footer {
 .social-networks i {
    font-size: 200%;
    margin: 0.5rem;
-   color: #141414;
+   color: var(--darkgrey);
    text-decoration: none;
 }
 
@@ -332,13 +348,13 @@ footer {
 #carte-tagline {
    letter-spacing: 0.25rem;
    padding: 2.5rem;
-   background-color: rgba(243, 184, 142, 0.9);
+   background-color: var(--panelorange);
    text-align: center;
    font-size: 280%;
    text-transform: uppercase;
    max-width: 65.625rem;
    margin: 3.125rem auto 0 auto;
-   color: #fff;
+   color: var(--white);
 }
 
 .wrapper-carte {
@@ -363,19 +379,19 @@ footer {
 .wrapper-carte * {
    margin: 0 0.625rem;
    flex: 1 100%;
-   border-radius: 0.625rem;
+   border-radius: 10px;
    text-align: left;
 }
 
 .panel-carte {
-   background: #fafafa;
+   background: var(--offwhite);
    flex: 0 1 21.875rem;
    margin: 1.56rem auto;
-   background-color: rgba(243, 184, 142, 0.9);
+   background-color: var(--panelorange);
 }
 
 .carte-header {
-   border-bottom: 0.25rem solid #f57309;
+   border-bottom: 0.25rem solid var(--brightorange);
    border-radius: 0;
    text-transform: uppercase;
    font-size: 180%;
@@ -388,7 +404,7 @@ footer {
 .panel-carte p {
    letter-spacing: 0.05rem;
    font-weight: 600;
-   color: #141414;
+   color: var(--darkgrey);
 }
 
 .panel-carte span {
@@ -397,7 +413,7 @@ footer {
    font-size: 1.17rem;
    text-transform: uppercase;
    font-family: Oswald, sans-serif;
-   color: #141414;
+   color: var(--darkgrey);
 }
 
 
@@ -412,7 +428,7 @@ footer {
 .carte-footer {
    letter-spacing: 0.1rem;
    text-transform: uppercase;
-   border-top: 0.25rem solid #f57309;
+   border-top: 0.25rem solid var(--brightorange);
    border-radius: 0;
    margin: 0.8rem;
    padding-top: 0.625rem;
@@ -448,8 +464,8 @@ footer {
    font-weight: 600;
    letter-spacing: 0.06875rem;
    font-size: 110%;
-   background-color: rgba(243, 184, 142, 0.9);
-   border-radius: 0.625rem;
+   background-color: var(--panelorange);
+   border-radius: 10px;
    padding: 1.875rem;
    height: 40.5rem;
 }
@@ -471,20 +487,20 @@ footer {
 }
 
 .text-input {
-   background: transparent;
+   background: rgba(255,255,255,0.5);
    font-family: Lato, sans-serif;
    font-size: 100%;
    font-weight: 600;
    width: 100%;
    margin: 0.3125rem 0 1.25rem 0;
-   border: 0.0625rem solid #141414;
-   border-radius: 0.125rem;
+   border: 0.0625rem solid var(--darkgrey);
+   border-radius: 2px;
    padding: 0.3125rem;
    letter-spacing: 0.06875rem;
 }
 
 .text-input:hover {
-   border-color: #fafafa;
+   border-color: var(--offwhite);
 }
 
 .text-input-line {
@@ -513,8 +529,8 @@ footer {
    margin: 0;
 }
 
-/* For larger to medium screens size from 81.25rem wide and down */
-@media screen and (max-width: 81.25rem) {
+/* For larger to medium screens size from 1300px wide and down */
+@media screen and (max-width: 1300px) {
    #contact-panel-container {
       width: 100%;
       display: block;
@@ -531,8 +547,8 @@ footer {
    }
 }
 
-/* For small screen sizes from 46.875rem wide and down */
-@media screen and (max-width: 46.875rem) {
+/* For small screen sizes from 750px wide and down */
+@media screen and (max-width: 750px) {
    #menu {
       clear: left;
       float: left;
@@ -561,9 +577,8 @@ footer {
    }
 }
 
-/* For very small screen sizes from 28.125rem wide and down */
-@media screen and (max-width: 28.125rem) {
-   
+/* For very small screen sizes from 450px wide and down */
+@media screen and (max-width: 450px) {
    #contact-panel-left,
    #contact-panel-right {
       width: 15.75rem;
@@ -581,8 +596,7 @@ footer {
 }
 
 /* For very small screen sizes re-size the flip-cards */
-@media screen and (max-width: 20rem) {
-
+@media screen and (max-width: 320px) {
    .flip-card,
    .flip-card-front img {
       width: 18.75rem;

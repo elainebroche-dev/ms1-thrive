@@ -227,10 +227,15 @@ THRIVE Juices and Smoothies is a site that advertises a fictional refreshment bu
 
 ### How to clone the repository
 
-- Go to the https://github.com/elainebroche-dev/ms1-thrive repository on GitHub
+- Go to the https://github.com/elainebroche-dev/ms1-thrive repository on GitHub 
 - Click the "Code" button to the right of the screen, click HTTPs and copy the link there
 - Open a GitBash terminal and navigate to the directory where you want to locate the clone
 - On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
+
+
+- 
+
+
 
 ## Credits 
 
